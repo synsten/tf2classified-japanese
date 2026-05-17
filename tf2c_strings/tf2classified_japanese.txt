@@ -56,9 +56,9 @@
 
 // VIP voting
 "Vote_ChangeCivilian"				"VIPを変更"
-"TF_vote_change_civilian"			"Choose player %s1 to be the VIP?"
-"TF_vote_change_civilian_caller"	"Player %s1 wants to be the VIP."
-"TF_vote_passed_change_civilian"	"The VIP will be player: %s1..."
+"TF_vote_change_civilian"			"プレイヤー%s1をVIPに選ぶか？"
+"TF_vote_change_civilian_caller"	"プレイヤー%s1がVIPになりたい"
+"TF_vote_passed_change_civilian"	"VIPはプレイヤー：%s1になる..."
 
 // Player list dialog
 "TF_Volume_Generic"			"音量："
@@ -89,8 +89,8 @@
 "TF_Special"	"SPECIAL"
 
 // Civilian
-"TF_Civilian" 				"CIVILIAN"
-"TF_Class_Name_Civilian" 	"Civilian"
+"TF_Civilian" 				"シヴィルリアン"
+"TF_Class_Name_Civilian" 	"シヴィルリアン"
 
 "ClassTips_10_Count"	"3"
 "ClassTips_10_1"		"Boost a teammate to give them an advantage in battle!"
@@ -608,13 +608,13 @@
 // Miscellaneous weapon types
 // ----------------------------------------------------------------
 
-"TF_Weapon_Anchor"					"Anchor"
-"TF_Weapon_Boots"					"Boots"
+"TF_Weapon_Anchor"					"錨"
+"TF_Weapon_Boots"					"靴"
 "TF_Weapon_Bow"						"弓"
-"TF_Weapon_Cane"					"Cane"
-"TF_Weapon_Chains"					"Chains"
+"TF_Weapon_Cane"					"杖"
+"TF_Weapon_Chains"					"鎖"
 "TF_Weapon_CigaretteCase"			"...シガレットケース？"
-"TF_Weapon_Club"					"Club"
+"TF_Weapon_Club"					"棍棒"
 "TF_Weapon_DoubleBarrelShotgun"		"Double Barrel Shotgun"
 "TF_Weapon_EMPGrenadeLauncher"		"EMP Grenade Launcher"
 "TF_Weapon_Grenade"					"手榴弾"
@@ -622,9 +622,9 @@
 "TF_Weapon_LunchBox"				"Lunch Box"
 "TF_Weapon_PDA"						"PDA"
 "TF_Weapon_ProximityMineLauncher"	"Proximity Mine Launcher"
-"TF_Weapon_Scythe"					"Scythe"
-"TF_Weapon_Syringe"					"Syringe"
-"TF_Weapon_Taser"					"Taser"
+"TF_Weapon_Scythe"					"大鎌"
+"TF_Weapon_Syringe"					"シリンジ"
+"TF_Weapon_Taser"					"テーザー"
 "TF_Weapon_Throwable"				"Throwable"
 
 // ----------------------------------------------------------------
@@ -635,7 +635,7 @@
 "TF_Meter_Brick"	"BRICK"
 "TF_Meter_Cloak"	"CLOAK"
 "TF_Meter_Crits"	"CRITS"
-"TF_Meter_Dynamite"	"DYNAMITE"
+"TF_Meter_Dynamite"	"ダイナマイト"
 "TF_Meter_Harvest"	"HARVEST"
 "TF_Meter_LunchBox"	"LUNCHBOX"
 "TF_Meter_Therapy"	"THERAPY"
@@ -994,10 +994,10 @@ If Sudden Death occurs, the enemy VIP can be killed to win the round!"
 "vipr_cap_mid_reset"		"The Central Control Point has been reset!"
 "vipr_death_cap_mid_reset"	"You died! The Central Control Point has been reset!"
 
-"vipr_red_civ_death"	"RED's VIP has been eliminated!"
-"vipr_blu_civ_death"	"BLU's VIP has been eliminated!"
-"vipr_ylw_civ_death"	"YLW's VIP has been eliminated!"
-"vipr_grn_civ_death"	"GRN's VIP has been eliminated!"
+"vipr_red_civ_death"	"REDのVIPが斃れた！"
+"vipr_blu_civ_death"	"BLUのVIPが斃れた！"
+"vipr_ylw_civ_death"	"YLWのVIPが斃れた！"
+"vipr_grn_civ_death"	"GRNのVIPが斃れた！"
 
 "vipr_escape_zone"	"the Escape Zone"
 
@@ -1106,14 +1106,14 @@ Team ownership of Control Points is randomized at the start of each round."
 "WinPanel_Green_Team_Wins"	"GRN Team Wins"
 "WinPanel_Yellow_Team_Wins"	"YLW Team Wins"
 
-"Winpanel_GreenWins"		"GRN TEAM WINS!"
+"Winpanel_GreenWins"		"GRNチームの勝利！"
 "Winpanel_GreenAdvances"	"GRN TEAM SEIZES AREA"
 "Winpanel_GreenDefends"		"GRN TEAM DEFENDS!"
-"Winpanel_YellowWins"		"YLW TEAM WINS!"
+"Winpanel_YellowWins"		"YLWチームの勝利！"
 "Winpanel_YellowAdvances"	"YLW TEAM SEIZES AREA"
 "Winpanel_YellowDefends"	"YLW TEAM DEFENDS!"
-"Winpanel_GreenMVPs"		"GRN Team MVPs:"
-"Winpanel_YellowMVPs"		"YLW Team MVPs:"
+"Winpanel_GreenMVPs"		"GRNのMVP："
+"Winpanel_YellowMVPs"		"YLWのMVP："
 
 "Winreason_KOTHPointHeld"		"%s1 held the Control Point until time ran out"
 "Winreason_PayloadPushed"		"%s1 pushed the payload to the final terminus"
@@ -1126,8 +1126,8 @@ Team ownership of Control Points is randomized at the start of each round."
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Welcome back,"
-"TF_Menu_Name"				"%playername%!"
+"TF_Menu_Welcome"			"おかえり、"
+"TF_Menu_Name"				"%playername%！"
 
 "TF_Menu_HideName"			"[REDACTED]"
 
@@ -1142,7 +1142,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_Loadout"			"Loadout"
 
 "TF_Menu_Achievements"		"Achievements"
-"TF_Menu_Stats"				"Stats"
+"TF_Menu_Stats"				"データ"
 
 "TF_Menu_Options"			"Options"
 "TF_Menu_Addons"			"Addons (Coming Soon!)"
@@ -1154,13 +1154,13 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_ReportBug"			"Report a Bug"
 "TF_Menu_Donate"			"Donate"
 
-"TF_Friends_Title"					"Friends (%friend_count%)"
-"TF_Friends_Status_InTF2C"			"Playing TF2C"
-"TF_Friends_Status_Idle_InTF2C"		"Idle in TF2C"
-"TF_Friends_Status_InMod"			"Playing other mod"
-"TF_Friends_Status_Idle_InMod"		"Idle in other mod"
-"TF_Friends_Status_InGame"			"Playing other game"
-"TF_Friends_Status_Idle"			"Idle in other game"
+"TF_Friends_Title"					"友達(%friend_count%)"
+"TF_Friends_Status_InTF2C"			"TF2Cをプレイ中"
+"TF_Friends_Status_Idle_InTF2C"		"TF2Cで放置中"
+"TF_Friends_Status_InMod"			"他のMODをプレイ中"
+"TF_Friends_Status_Idle_InMod"		"他のMODで放置中"
+"TF_Friends_Status_InGame"			"他のゲームをプレイ中"
+"TF_Friends_Status_Idle"			"他のゲームで放置中"
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Away"
 "TF_Friends_Status_Offline"			"Offline"
@@ -1557,12 +1557,12 @@ Team ownership of Control Points is randomized at the start of each round."
 "ServerBrowser_UseLegacyBrowser" 	"Use legacy browser"
 "ServerBrowser_CurrentMapHeading" 	"Current map:"
 "ServerBrowser_TagListHeading" 		"Tags:"
-"ServerBrowser_OfficialDetail" 		"This server is Official"
-"ServerBrowser_VerifiedDetail" 		"This server is Verified"
-"ServerBrowser_Any" 				"Any"
-"ServerBrowser_Official" 			"Official"
-"ServerBrowser_Verified" 			"Verified"
-"ServerBrowser_OfficialOrVerified" 	"Official or Verified"
+"ServerBrowser_OfficialDetail" 		"このサーバーは公式"
+"ServerBrowser_VerifiedDetail" 		"このサーバーは認証済み"
+"ServerBrowser_Any" 				"任意"
+"ServerBrowser_Official" 			"公式"
+"ServerBrowser_Verified" 			"認証済み"
+"ServerBrowser_OfficialOrVerified" 	"公式または認証済み"
 "ServerBrowser_CustomRules"			"Custom Rules"
 "ServerBrowser_CustomWeapons" 		"Custom Weapons"
 }
