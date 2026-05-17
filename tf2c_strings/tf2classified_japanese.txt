@@ -584,7 +584,7 @@
 "TF_Weapon_Harvester"		"Harvester"
 "TF_Weapon_Harvester_Desc"	"Ask not for whom the bell tolls."
 // Brick
-"TF_Weapon_Brick"		"Brick"
+"TF_Weapon_Brick"		"レンガ"
 "TF_Weapon_Brick_Desc"	"Didn't think you were THAT slow."
 
 // ----------------------------------------------------------------
@@ -609,7 +609,7 @@
 // ----------------------------------------------------------------
 
 "TF_Weapon_Anchor"					"錨"
-"TF_Weapon_Boots"					"靴"
+"TF_Weapon_Boots"					"ブーツ"
 "TF_Weapon_Bow"						"弓"
 "TF_Weapon_Cane"					"杖"
 "TF_Weapon_Chains"					"鎖"
@@ -632,7 +632,7 @@
 // ----------------------------------------------------------------
 
 "TF_Meter_Airtime"	"AIRTIME"
-"TF_Meter_Brick"	"BRICK"
+"TF_Meter_Brick"	"レンガ"
 "TF_Meter_Cloak"	"CLOAK"
 "TF_Meter_Crits"	"CRITS"
 "TF_Meter_Dynamite"	"ダイナマイト"
