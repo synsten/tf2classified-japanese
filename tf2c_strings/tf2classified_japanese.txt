@@ -179,13 +179,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"					"（メディック） ÜberChargeの状態"
-"Voice_Menu_ChargeReadySubtitle"			"ÜberCharge準備完了！ (100%)"
-"Voice_Menu_ChargeAlmostReadySubtitle"		"ÜberChargeもうすぐ準備完了！ (%s1%)"
-"Voice_Menu_ChargeNotReadySubtitle"			"ÜberChargeまだ準備できていない！ (%s1%)"
+"Voice_Menu_ChargeReady"					"（メディック） ユーバーチャージの状態"
+"Voice_Menu_ChargeReadySubtitle"			"ユーバーチャージ準備完了！ (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"		"ユーバーチャージもうすぐ準備完了！ (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"			"ユーバーチャージまだ準備できていない！ (%s1%)"
 
-"Voice_Menu_SingleChargeReadySubtitle"		"ÜberCharge準備完了！ (%s1チャージ)"
-"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberCharge準備完了！ (%s1チャージ)"
+"Voice_Menu_SingleChargeReadySubtitle"		"ユーバーチャージ準備完了！ (%s1チャージ)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ユーバーチャージ準備完了！ (%s1チャージ)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -270,15 +270,15 @@
 "Tip_5_Count"	"16"
 // Generic
 "Tip_5_1"		"メディックとして、最近ダメージを受けていないチームメイトははるかに速く回復する！"
-"Tip_5_2"		"メディックとして、より瀕死のチームメイトを治療するほどÜberChargeが速く溜まる。"
-"Tip_5_3"		"メディックとして、セットアップ時間中はÜberChargeがはるかに速く溜まる。"
-"Tip_5_4"		"メディックとして、チームメイトを治療してÜberChargeメーターを満タンにしたら、%attack2%を押してÜberChargeを発動しよう。"
+"Tip_5_2"		"メディックとして、より瀕死のチームメイトを治療するほどユーバーチャージが速く溜まる。"
+"Tip_5_3"		"メディックとして、セットアップ時間中はユーバーチャージがはるかに速く溜まる。"
+"Tip_5_4"		"メディックとして、チームメイトを治療してユーバーチャージメーターを満タンにしたら、%attack2%を押してユーバーチャージを発動しよう。"
 "Tip_5_5"		"メディックとして、助けを求めているチームメイトに注意しよう。画面上の十字の吹き出しで彼らを見つけよう。"
 "Tip_5_6"		"メディックとして、無敵状態中はコントロールポイントの制圧やインテリジェンスブリーフケースの回収ができない。"
 // Stock
 "Tip_5_7"		"メディックとして、注射器は弧を描いて飛び、飛行時間がある。ショットをリードして当てよう。"
 "Tip_5_8"		"メディックとして、メディガンで負傷したチームメイトを治療し、通常体力の最大150%%まで超回復させよう。"
-"Tip_5_9"		"メディックとして、メディガンのÜberChargeはあなたと患者を短時間無敵にする。"
+"Tip_5_9"		"メディックとして、メディガンのユーバーチャージはあなたと患者を短時間無敵にする。"
 "Tip_5_10"		"メディックとして、ボーンソーはチームメイトから離れた防衛的な状況で使える。"
 // Death & Taxes
 "Tip_5_11"		"メディックとして、クリッツクリークは患者に一時的にクリティカル確定を与える。強力なクラスに使い、敵が密集したエリアで使おう。"
@@ -286,8 +286,8 @@
 "Tip_5_13"		"メディックとして、ショックセラピーはチャージが高いほど多くのダメージを与える。チャージは敵にヒットするたびに減る。"
 "Tip_5_14"		"メディックとして、ショックセラピーはフルチャージ時にチームメイトを完全回復させられるが、全体的な回復速度が下がる。"
 // Double Down
-"Tip_5_15"		"メディックとして、リジュビネーターは大勢のチームメイトを同時に回復するのに非常に役立つ。ダイレクトヒットで回復量とÜberChargeボーナスが増える。"
-"Tip_5_16"		"メディックとして、リジュビネーターのÜberChargeは一時的な無敵シールドを展開し、その中に入ったチームメイトを全ダメージから守る。"
+"Tip_5_15"		"メディックとして、リジュビネーターは大勢のチームメイトを同時に回復するのに非常に役立つ。ダイレクトヒットで回復量とユーバーチャージボーナスが増える。"
+"Tip_5_16"		"メディックとして、リジュビネーターのユーバーチャージは一時的な無敵シールドを展開し、その中に入ったチームメイトを全ダメージから守る。"
 
 // Heavy
 "Tip_6_Count"	"17"
@@ -396,7 +396,7 @@
 // Stock
 "Tip_10_7"		"シヴィルリアンとして、アンブレラは武器としてあまり効果的ではない。本当に追い詰められた時だけ使おう。チームメイトに戦わせよう。"
 "Tip_10_8"		"シヴィルリアンとして、アンブレラは選択したチームメイトにミニクリティカルを付与する。大ダメージを与えられるクラスをブーストしよう。"
-"Tip_10_9"		"シヴィルリアンとして、アンブレラのミニクリティカルブーストはメディックの回復速度とÜberChargeゲインも増加させる。"
+"Tip_10_9"		"シヴィルリアンとして、アンブレラのミニクリティカルブーストはメディックの回復速度とユーバーチャージゲインも増加させる。"
 // Double Down
 "Tip_10_10"		"シヴィルリアンとして、ダービーケーンでチームメイトに加速ブーストを与えられる。移動速度と射撃速度が大幅に上がる。"
 "Tip_10_11"		"シヴィルリアンとして、ダービーケーンはメディックの回復速度とエンジニアの建設速度も上昇させる。"
@@ -581,11 +581,11 @@
 "TF_Weapon_PDAJumpPad"		"PDA：ジャンプパッド"
 "TF_Weapon_PDAJumpPad_Desc"	"信じてくれ、相棒。これはぶっ飛ばしてくれるぞ。"
 // Harvester
-"TF_Weapon_Harvester"		"Harvester"
-"TF_Weapon_Harvester_Desc"	"Ask not for whom the bell tolls."
+"TF_Weapon_Harvester"		"ハーヴェスター"
+"TF_Weapon_Harvester_Desc"	"誰のために鐘が鳴るのか、問うなかれ。"
 // Brick
 "TF_Weapon_Brick"		"レンガ"
-"TF_Weapon_Brick_Desc"	"Didn't think you were THAT slow."
+"TF_Weapon_Brick_Desc"	"失せろ、相棒。お前はもう終わりだ。"
 
 // ----------------------------------------------------------------
 // Double Down weapon strings
@@ -897,7 +897,7 @@ Honorable hand to sword combat only!"
 "Gametype_KOTF"				"King of the Flag"
 "Gametype_TD"				"Territorial Domination"
 "Gametype_VIP"				"VIP"
-"Gametype_VIPRace"			"VIP Race"
+"Gametype_VIPRace"			"VIPレース"
 
 "Gametype_FourTeam"			"Four-Team"
 
@@ -915,7 +915,7 @@ Honorable hand to sword combat only!"
 "Gametype_TD_FourTeam"				"Territorial Domination (Four-Team)"
 "Gametype_Training_FourTeam"		"Training Mode (Four-Team)"
 "Gametype_VIP_FourTeam"				"VIP (Four-Team)"
-"Gametype_VIPRace_FourTeam"			"VIP Race (Four-Team)"
+"Gametype_VIPRace_FourTeam"			"VIPレース (Four-Team)"
 
 // Offline practice descriptions
 "TF_GameModeDesc_VIP"			"BLU escorts the Civilian to a control point. RED needs to stop them."
@@ -1051,7 +1051,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_IM_Steel_Pit"	"Watch out for the pit!"
 
 // VIP Race
-"TF_IM_VIPR_Intro"	"Welcome to the VIP Race game mode"
+"TF_IM_VIPR_Intro"	"VIPレースのゲームモードへようこそ"
 "TF_IM_VIPR_ToWin"	"To win, you must help your VIP capture the enemy Control Point..."
 "TF_IM_VIPR_Escape"	"...then escort them to the Escape Zone before the enemy team can do the same!"
 "TF_IM_VIPR_Death"	"If a VIP dies, any points they have captured will be reset"
@@ -1477,11 +1477,11 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_BRICK_NAME"							"レンガ"
 "TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"船の投錨"
-"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"致命的な落下ダメージを受けながら、Admiralty AnchorのEarthquakeで敵を倒す。"
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"致命的な落下ダメージを受けながら、アドミラルティアンカーの地震で敵を倒す。"
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"引き裂き、切り刻め！"
-"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"Twin Barrelでミートショットキルを10回達成する。"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"ツインバレルでミートショットキルを10回達成する。"
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"首が飛ぶぞ"
-"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"Harvesterで1ライフ中に敵を3人斬首する。"
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"ハーヴェスターで1ライフ中に敵を3人斬首する。"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"スプラッター・コンボ"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"サイクロプスのコンボ爆発1回で敵を3人以上倒す。"
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"軍縮"
@@ -1489,13 +1489,13 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1、1、1、えと～～～"
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"爆発物の設定ミスにより、敵を倒す。"
 "TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"封じ込めのポリシー"
-"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"A.A. Cannonを使い、自爆せずに1ライフで2000ダメージを与える。"
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"対空砲を使い、自爆せずに1ライフで2000ダメージを与える。"
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"準備とペイオフ"
-"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Chekhov's Punchのクリティカル蓄積最大時にクリティカルキルを達成する。"
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"チェーホフのパンチのクリティカル蓄積最大時にクリティカルキルを達成する。"
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"終端速度"
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"ジャンプパッド使用後、敵の上に着地して倒す。"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"マラソンの手術"
-"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Rejuvenatorのユーバーチャージを12秒間維持する。"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"リジュビネーターのユーバーチャージを12秒間維持する。"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"死んだ！"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"Chekhov's Punch を装備した敵ヘビーに心臓発作を起こさせる！"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"死の空気"
@@ -1503,9 +1503,9 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"フランス人を襲う"
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"ダメージを与えて透明状態のL'escampetteスパイを発見する。"
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"起業家"
-"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Civilianとして、一度も死なずにVIPラウンドに勝利する。"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"シヴィリアンとして、一度も死なずにVIPラウンドに勝利する。"
 "TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"加速状態"
-"TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"3分未満でVIP Raceラウンドに勝利する。"
+"TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"3分未満でVIPレースラウンドに勝利する。"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"考古学"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Jinnに埋められた財宝を発見する。"
 "TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"司令塔"
