@@ -507,7 +507,7 @@
 // ----------------------------------------------------------------
 
 // Kritzkrieg
-"TF_Weapon_Kritzkrieg"		"Kritzkrieg"
+"TF_Weapon_Kritzkrieg"		"クリッツクリーク"
 "TF_Weapon_Kritzkrieg_Desc"	"さあ、少し害を与えておくれ！二人ともビジネスを続けられるからね？"
 // Überspritze
 "TF_Weapon_Uberspritze"			"Überspritze"
@@ -519,7 +519,7 @@
 "TF_Weapon_Sandvich"		"サンドヴィッチ"
 "TF_Weapon_Sandvich_Desc"	"こっちに来い！味を教えてやろう。"
 // Huntsman
-"TF_Weapon_Huntsman"		"Huntsman"
+"TF_Weapon_Huntsman"		"ハーンツマン"
 "TF_Weapon_Huntsman_Desc"	"騎士道はどこへ消えたんだ？"
 // Gunboats
 "TF_Weapon_Gunboats"				"ガンボート"
@@ -785,100 +785,100 @@
 // ----------------------------------------------------------------
 
 // cp_amaranth
-"Amaranth_cap_A"	"the Warehouses"
-"Amaranth_cap_B"	"RED's Shipping Facility"
+"Amaranth_cap_A"	"倉庫群"
+"Amaranth_cap_B"	"REDの出荷施設"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, the Warehouse"
-"Hydro_dom_cap_radar_dish"	"B, the Radar Dish"
-"Hydro_dom_cap_power_plant"	"C, the Power Plant"
-"Hydro_dom_cap_dam"			"D, the Dam"
+"Hydro_dom_cap_warehouse"	"A、倉庫"
+"Hydro_dom_cap_radar_dish"	"B、レーダーアンテナ"
+"Hydro_dom_cap_power_plant"	"C、発電所"
+"Hydro_dom_cap_dam"			"D、ダム"
 
 // vip_mineside
-"vip_mineside_description"	"Objective:
-RED team wins by preventing the VIP from reaching the Escape Zone. BLU team wins by escorting the VIP to the Escape Zone.
+"vip_mineside_description"	"目標：
+REDチームはVIPが脱出ゾーンに到達するのを阻止すれば勝利。BLUチームはVIPを脱出ゾーンまで護衛すれば勝利。
 
-Other Notes:
-The Escape Zone can't open until you deliver the Suitcase Device to the Control Room next to the Escape Zones gate.
+補足：
+脱出ゾーンのゲート付近のコントロールルームにスーツケース装置を届けるまで、脱出ゾーンは開かない。
 
-If BLU delivers the Suitcase Device, the gates timer will count down from 60 seconds before closing again."
+BLUがスーツケース装置を届けると、ゲートのタイマーが60秒からカウントダウンし、その後再び閉まる。"
 
-"Mineside_setup_goal_red"	"Kill the VIP to stop him from reaching the Escape Zone. Prevent him from grabbing the Device."
-"Mineside_setup_goal_blu"	"Escort the VIP to the Escape Zone. Deliver the Device to the Control Room to open the gate."
+"Mineside_setup_goal_red"	"VIPを倒して脱出ゾーンへの到達を阻止しろ。装置を奪われないようにせよ。"
+"Mineside_setup_goal_blu"	"VIPを脱出ゾーンまで護衛せよ。装置をコントロールルームに届けてゲートを開けろ。"
 
-"Mineside_escape_zone"	"the Escape Tunnel"
+"Mineside_escape_zone"	"脱出トンネル"
 
 // dom_oilcanyon
-"Oilcanyon_cap_A"	"cap A, the Canyon"
-"Oilcanyon_cap_B"	"cap B, the Laser Gun"
-"Oilcanyon_cap_C"	"cap C, the Refinery"
+"Oilcanyon_cap_A"	"A、峡谷"
+"Oilcanyon_cap_B"	"B、レーザー砲"
+"Oilcanyon_cap_C"	"C、精製所"
 
 // vip_trainyard
-"Trainyard_escape_zone"	"the Escape Vehicle"
+"Trainyard_escape_zone"	"脱出車両"
 
 // vip_harbor
-"Harbor_cap_1"			"the Loading Dock"
-"Harbor_cap_2"			"the Waterfront"
-"Harbor_cap_3"			"the Warehouse"
+"Harbor_cap_1"			"荷積み場"
+"Harbor_cap_2"			"水際"
+"Harbor_cap_3"			"倉庫"
 
 // 4dom_krepost
-"dom_krepost_description"	"Objective:
-To win, each team must capture and hold the currently active Control Point to gain points.
+"dom_krepost_description"	"目標：
+勝つには、各チームが現在有効なコントロールポイントを制圧・保持してポイントを稼がなければならない。
 
-The active Control Point switches to a random team's base every 60 seconds.
+有効なコントロールポイントは60秒ごとにランダムなチームの拠点に切り替わる。
 
-Other Notes:
-Contesting the Control Point stops the enemy from gaining points.
+補足：
+コントロールポイントを争うと、敵がポイントを獲得できなくなる。
 
-The active Control Point will lock when a new Control Point is chosen.
+新しいコントロールポイントが選ばれると、現在の有効ポイントはロックされる。
 
-Honorable hand to sword combat only!"
+名誉ある剣戦のみ！"
 
-"Krepost_cap_red"	"RED's castle"
-"Krepost_cap_blu"	"BLU's castle"
-"Krepost_cap_grn"	"GRN's castle"
-"Krepost_cap_ylw"	"YLW's castle"
+"Krepost_cap_red"	"REDの城"
+"Krepost_cap_blu"	"BLUの城"
+"Krepost_cap_grn"	"GRNの城"
+"Krepost_cap_ylw"	"YLWの城"
 
-"Krepost_attack_red"	"RED's gate is open!"
-"Krepost_attack_blu"	"BLU's gate is open!"
-"Krepost_attack_grn"	"GRN's gate is open!"
-"Krepost_attack_ylw"	"YLW's gate is open!"
+"Krepost_attack_red"	"REDのゲートが開いた！"
+"Krepost_attack_blu"	"BLUのゲートが開いた！"
+"Krepost_attack_grn"	"GRNのゲートが開いた！"
+"Krepost_attack_ylw"	"YLWのゲートが開いた！"
 
 // td_caper
-"Caper_cap_A"	"cap A, the Laser Tower"
-"Caper_cap_B"	"cap B, the Silos"
-"Caper_cap_C"	"cap C, the Sewer"
+"Caper_cap_A"	"A、レーザータワー"
+"Caper_cap_B"	"B、サイロ"
+"Caper_cap_C"	"C、下水道"
 
 // vipr_2bridge
-"2Bridge_cap_A"	"the RED Bridge"
-"2Bridge_cap_B"	"the BLU Bridge"
+"2Bridge_cap_A"	"REDの橋"
+"2Bridge_cap_B"	"BLUの橋"
 
 // vipr_drizzle
-"Drizzle_cap_A"	"the RED Mine Entrance"
-"Drizzle_cap_B"	"the BLU Mine Entrance"
+"Drizzle_cap_A"	"REDの鉱山入口"
+"Drizzle_cap_B"	"BLUの鉱山入口"
 
 // dom_railway
-"Railway_cap_A"	"cap A, the Garage"
-"Railway_cap_B"	"cap B, the Loading Hall"
-"Railway_cap_C"	"cap C, the Stockyard"
+"Railway_cap_A"	"A、ガレージ"
+"Railway_cap_B"	"B、荷積みホール"
+"Railway_cap_C"	"C、ストックヤード"
 
 // dom_sawtooth
-"Sawtooth_cap_A"	"cap A, the Lookout"
-"Sawtooth_cap_B"	"cap B, the Sawmill"
-"Sawtooth_cap_C"	"cap C, the Radio Tower"
+"Sawtooth_cap_A"	"A、見張り台"
+"Sawtooth_cap_B"	"B、製材所"
+"Sawtooth_cap_C"	"C、電波塔"
 
 // td_sunnyside
-"Sunnyside_cap_A"	"cap A, the Barns"
-"Sunnyside_cap_B"	"cap B, the Tanks"
-"Sunnyside_cap_C"	"cap C, the Coops"
+"Sunnyside_cap_A"	"A、農小屋"
+"Sunnyside_cap_B"	"B、タンク"
+"Sunnyside_cap_C"	"C、鶏小屋"
 
 // vip_avanti
-"Avanti_red_setup_goal"		"Move downhill and kill the enemy team's VIP to prevent him from reaching the Escape Zone!"
-"Avanti_blue_setup_goal"	"Move uphill and escort the VIP to the Escape Zone!"
-"Avanti_cap_1"				"the Storeroom"
-"Avanti_cap_2"				"the Terrace"
-"Avanti_cap_3"				"the Bell Tower"
-"Avanti_cap_4"				"the Front Gates"
+"Avanti_red_setup_goal"		"坂を下って敵チームのVIPを倒し、脱出ゾーンへの到達を阻止せよ！"
+"Avanti_blue_setup_goal"	"坂を上ってVIPを脱出ゾーンまで護衛せよ！"
+"Avanti_cap_1"				"倉庫室"
+"Avanti_cap_2"				"テラス"
+"Avanti_cap_3"				"鐘楼"
+"Avanti_cap_4"				"正門"
 
 // vipr_chopper
 "Chopper_cap_A"				"REDレーダー"
@@ -891,37 +891,37 @@ Honorable hand to sword combat only!"
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Capture the Penguin" // We have fun here
-"Gametype_Domination"		"Domination"
-"Gametype_MedDomination"	"Domination (Medieval)"
-"Gametype_KOTF"				"King of the Flag"
-"Gametype_TD"				"Territorial Domination"
+"Gametype_CTF_Penguin"		"ペンギンを奪え" // We have fun here
+"Gametype_Domination"		"ドミネーション"
+"Gametype_MedDomination"	"ドミネーション（中世）"
+"Gametype_KOTF"				"キング・オブ・ザ・フラッグ"
+"Gametype_TD"				"テリトリアルドミネーション"
 "Gametype_VIP"				"VIP"
 "Gametype_VIPRace"			"VIPレース"
 
-"Gametype_FourTeam"			"Four-Team"
+"Gametype_FourTeam"			"四チーム戦"
 
-"Gametype_Arena_FourTeam"			"Arena (Four-Team)"
-"Gametype_AttackDefense_FourTeam"	"Attack / Defense (Four-Team)"
-"Gametype_CP_FourTeam"				"Control Points (Four-Team)"
-"Gametype_CTF_FourTeam"				"Capture the Flag (Four-Team)"
-"Gametype_Domination_FourTeam"		"Domination (Four-Team)"
-"Gametype_MedDomination_FourTeam"	"Domination (Four-Team Medieval)"
-"Gametype_KOTF_FourTeam"			"King of the Flag (Four-Team)"
-"Gametype_Koth_FourTeam"			"King of the Hill (Four-Team)"
-"Gametype_Escort_FourTeam"			"Payload (Four-Team)"
-"Gametype_EscortRace_FourTeam"		"Payload Race (Four-Team)"
-"Gametype_SD_FourTeam"				"Special Delivery (Four-Team)"
-"Gametype_TD_FourTeam"				"Territorial Domination (Four-Team)"
-"Gametype_Training_FourTeam"		"Training Mode (Four-Team)"
-"Gametype_VIP_FourTeam"				"VIP (Four-Team)"
-"Gametype_VIPRace_FourTeam"			"VIPレース (Four-Team)"
+"Gametype_Arena_FourTeam"			"アリーナ（四チーム戦）"
+"Gametype_AttackDefense_FourTeam"	"攻撃 / 防衛（四チーム戦）"
+"Gametype_CP_FourTeam"				"コントロールポイント（四チーム戦）"
+"Gametype_CTF_FourTeam"				"キャプチャー・ザ・フラッグ（四チーム戦）"
+"Gametype_Domination_FourTeam"		"ドミネーション（四チーム戦）"
+"Gametype_MedDomination_FourTeam"	"ドミネーション（四チーム戦・中世）"
+"Gametype_KOTF_FourTeam"			"キング・オブ・ザ・フラッグ（四チーム戦）"
+"Gametype_Koth_FourTeam"			"キング・オブ・ザ・ヒル（四チーム戦）"
+"Gametype_Escort_FourTeam"			"ペイロード（四チーム戦）"
+"Gametype_EscortRace_FourTeam"		"ペイロードレース（四チーム戦）"
+"Gametype_SD_FourTeam"				"スペシャルデリバリー（四チーム戦）"
+"Gametype_TD_FourTeam"				"テリトリアルドミネーション（四チーム戦）"
+"Gametype_Training_FourTeam"		"トレーニングモード（四チーム戦）"
+"Gametype_VIP_FourTeam"				"VIP（四チーム戦）"
+"Gametype_VIPRace_FourTeam"			"VIPレース（四チーム戦）"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"BLU escorts the Civilian to a control point. RED needs to stop them."
-"TF_GameModeDesc_VIPRace"		"Escort your Civilian to the finish line before the opposing team does."
-"TF_GameModeDesc_Domination"	"Capture points and hold them for as long as possible."
-"TF_GameModeDesc_Arena"			"Eliminate all enemy players or wait for the control point to unlock."
+"TF_GameModeDesc_VIP"			"BLUはシヴィルリアンをコントロールポイントまで護衛する。REDはこれを阻止しなければならない。"
+"TF_GameModeDesc_VIPRace"		"相手チームより先にシヴィルリアンをゴールまで護衛せよ。"
+"TF_GameModeDesc_Domination"	"ポイントを制圧し、できるだけ長く保持せよ。"
+"TF_GameModeDesc_Arena"			"敵プレイヤーを全員倒すか、コントロールポイントが解放されるまで待て。"
 
 "TF_GameModeBrief_VIPRace"		"VIPレース - 両チームにVIPがいる"
 
@@ -930,61 +930,61 @@ Honorable hand to sword combat only!"
 // ----------------------------------------------------------------
 
 // Domination
-"default_dom_description"	"Objective:
-To win, each team must capture and hold Control Points to gain points. The more Control Points you own, the faster you gain points.
+"default_dom_description"	"目標：
+勝つには、各チームがコントロールポイントを制圧・保持してポイントを稼がなければならない。保有するポイントが多いほど、得点速度が上がる。
 
-Other Notes:
-Contesting a Control Point stops the enemy from gaining points using that Control Point.
+補足：
+コントロールポイントを争うと、そのポイントで敵がポイントを獲得できなくなる。
 
-If your team is behind, capture all of the Control Points to gain a score bonus."
+チームが劣勢なら、全コントロールポイントを制圧してスコアボーナスを得よう。"
 
-"domination_setup_goal"	"Capture Control Points to gain points over time. Capturing more than one point will increase your chance of success!"
+"domination_setup_goal"	"コントロールポイントを制圧して時間経過でポイントを稼げ。複数のポイントを制圧するほど勝利に近づく！"
 
 // VIP
-"default_vip_description"	"Objective:
-BLU team wins by escorting the VIP to the Escape Zone before the time runs out. RED team wins by preventing him from reaching the escape zone.
+"default_vip_description"	"目標：
+BLUチームは時間切れ前にVIPを脱出ゾーンまで護衛すれば勝利。REDチームはVIPの脱出を阻止すれば勝利。
 
-Other Notes:
-BLU team can freeze the capture progress of a Control Point if the VIP isn't present."
+補足：
+VIPが不在の場合、BLUチームはコントロールポイントの制圧進行を停止できる。"
 
-"vip_setup_goal_offense"	"Escort the VIP to the Escape Zone."
-"vip_setup_goal_defense"	"Kill the enemy team's VIP to prevent him from reaching the Escape Zone."
+"vip_setup_goal_offense"	"VIPを脱出ゾーンまで護衛せよ。"
+"vip_setup_goal_defense"	"敵チームのVIPを倒して脱出ゾーンへの到達を阻止せよ。"
 
-"TF_VIP_Tutorial_Annotation_2"	"He provides a defensive boost to those around him and\ncan also temporarily buff a member of his team!"
-"TF_VIP_Tutorial_Annotation_3"	"But remember, his life is more important than yours, so don't let him die!"
+"TF_VIP_Tutorial_Annotation_2"	"VIPは周囲の仲間に防衛ブーストを与え、\nさらにチームメンバーを一時的にバフできる！"
+"TF_VIP_Tutorial_Annotation_3"	"だが忘れるな、彼の命はお前の命より大切だ。絶対に死なせるな！"
 
-"Cant_cap_civilian_only"		"Only the VIP can\n capture this point."
-"Cant_cap_civilian_only_frozen"	"Capture Frozen\n Only the VIP can\n capture this point."
+"Cant_cap_civilian_only"		"このポイントを制圧できるのは\n VIPだけだ。"
+"Cant_cap_civilian_only_frozen"	"制圧停止中\n このポイントを制圧できるのは\n VIPだけだ。"
 
 // VIP (Lives)
-"vipl_setup_goal_offense"	"Escort the VIP to the Escape Zone. Prevent him from being eliminated."
-"vipl_setup_goal_defense"	"Kill the enemy team's VIP or prevent him from reaching the Escape Zone to win."
+"vipl_setup_goal_offense"	"VIPを脱出ゾーンまで護衛し、撃破されないようにせよ。"
+"vipl_setup_goal_defense"	"敵チームのVIPを倒すか、脱出ゾーンへの到達を阻止して勝利せよ。"
 
 // VIP (Flags)
-"vip_bring_flag_here"	"Bring the device here!"
-"vip_bring_flag"		"Bring the device to the Control Room!"
+"vip_bring_flag_here"	"装置をここへ持ってこい！"
+"vip_bring_flag"		"装置をコントロールルームへ持っていけ！"
 
-"TF_VIP_TakeDeviceToPoint"		"Take the Device to the Control Room!"
-"TF_VIP_TeamDeviceReturned"		"The Device has returned! Go get it!"
-"TF_VIP_EnemyDeviceReturned"	"The Device has returned! Defend the drop site!"
+"TF_VIP_TakeDeviceToPoint"		"装置をコントロールルームへ持っていけ！"
+"TF_VIP_TeamDeviceReturned"		"装置が戻った！取りに行け！"
+"TF_VIP_EnemyDeviceReturned"	"装置が戻った！ドロップ地点を守れ！"
 
 // VIP Race
-"default_vipr_description"	"Objective:
-Escort your VIP to the Control Points followed by the Escape Zone to win. Kill the enemy VIP to reset any Control Points they have claimed.
+"default_vipr_description"	"目標：
+VIPをコントロールポイント経由で脱出ゾーンまで護衛して勝利せよ。敵VIPを倒すと、そのチームが制圧したコントロールポイントがリセットされる。
 
-Other Notes:
-If your VIP dies, you lose any Control Points your VIP has captured.
+補足：
+VIPが死亡すると、そのVIPが制圧したコントロールポイントを失う。
 
-Either team can freeze the capture progress of a Control Point if their VIP isn't present.
+VIPが不在の場合、どのチームもコントロールポイントの制圧進行を停止できる。
 
-If Sudden Death occurs, the enemy VIP can be killed to win the round!"
+サドンデス発生時、敵VIPを倒せばラウンド勝利！"
 
-"vipr_setup_goal"		"Escort your VIP to the Control Points. Stop the enemy VIP from doing the same!"
-"vipr_setup_goal_4team"	"Escort your VIP to the Control Points. Stop the enemy teams from doing the same!"
+"vipr_setup_goal"		"VIPをコントロールポイントへ護衛せよ。敵VIPの同じ行動を阻止しろ！"
+"vipr_setup_goal_4team"	"VIPをコントロールポイントへ護衛せよ。敵チームの同じ行動を阻止しろ！"
 
 "vipr_cap_wrong_vip"	"敵のコントロールポイントを奪取しろ、バカ！"
-"vipr_own_civ_death"	"Your VIP has been eliminated! Protect him!"
-"vipr_their_civ_death"	"Good job! Their VIP has been eliminated!"
+"vipr_own_civ_death"	"味方のVIPが倒された！守れ！"
+"vipr_their_civ_death"	"よし！敵のVIPを倒した！"
 "vipr_cap_a_reset"		"コントロールポイントAがリセットした！"
 "vipr_cap_b_reset"		"コントロールポイントBがリセットした！"
 "vipr_cap_a_reset_vip"	"死亡した！コントロールポイントAがリセットした！"
@@ -1002,60 +1002,60 @@ If Sudden Death occurs, the enemy VIP can be killed to win the round!"
 "vipr_escape_zone"	"脱出ゾーン"
 
 // Territorial Domination
-"default_td_description"			"Objective:
-To win, each team must own all Control Points.
+"default_td_description"			"目標：
+勝つには、各チームが全コントロールポイントを制圧しなければならない。
 
-Other Notes:
-You spawn at the Control Points you own.
+補足：
+自チームが保有するコントロールポイントからスポーンする。
 
-Team ownership of Control Points is randomized at the start of each round."
+コントロールポイントの帰属は各ラウンド開始時にランダムに決まる。"
 
 // Payload Race (Four-Team)
-"4plr_goal"	"Move your cart to the end of the track to win!"
+"4plr_goal"	"カートをトラックの終点まで押し進めて勝利せよ！"
 
-"4plr_cap_red"	"RED's Capture Point"
-"4plr_cap_blu"	"BLU's Capture Point"
-"4plr_cap_grn"	"GRN's Capture Point"
-"4plr_cap_ylw"	"YLW's Capture Point"
+"4plr_cap_red"	"REDの制圧ポイント"
+"4plr_cap_blu"	"BLUの制圧ポイント"
+"4plr_cap_grn"	"GRNの制圧ポイント"
+"4plr_cap_ylw"	"YLWの制圧ポイント"
 
 // Useful generic stuff for mappers
-"generic_cap_A"			"Control Point A"
-"generic_cap_B"			"Control Point B"
-"generic_cap_C"			"Control Point C"
-"generic_cap_D"			"Control Point D"
-"generic_cap_E"			"Control Point E"
+"generic_cap_A"			"コントロールポイントA"
+"generic_cap_B"			"コントロールポイントB"
+"generic_cap_C"			"コントロールポイントC"
+"generic_cap_D"			"コントロールポイントD"
+"generic_cap_E"			"コントロールポイントE"
 
 // Arena
-"TF_Arena_Welcome"				"Arena Mode"
-"TF_Arena_Team_SizeIncreased"	"%s1 Team size increased to %s2."
-"TF_Arena_Team_SizeDecreased"	"%s1 Team size decreased to %s2."
+"TF_Arena_Welcome"				"アリーナモード"
+"TF_Arena_Team_SizeIncreased"	"%s1チームの人数が%s2に増えた。"
+"TF_Arena_Team_SizeDecreased"	"%s1チームの人数が%s2に減った。"
 
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
 
 // cp_coldfront
-"TF_IM_Coldfront_Intro"	"Coldfront is a Control Point map"
+"TF_IM_Coldfront_Intro"	"Coldfrontはコントロールポイントマップだ"
 
 // cp_steel
-"TF_IM_Steel_Intro"	"Steel is an attack and defend map."
-"TF_IM_Steel_BlueWin"	"BLU has to capture point E in order to win the round."
-"TF_IM_Steel_PlotTwist"	"However..."
-"TF_IM_Steel_FinalCap"	"Point E is always in play. BLU can capture it at any time."
-"TF_IM_Steel_Points"	"Capturing points A, B, C, and D will make E easier to take!"
-"TF_IM_Steel_CapA"	"Capturing A opens additional paths to B and E."
-"TF_IM_Steel_CapB"	"Capturing B moves RED's spawnroom and also opens an additional route to C. "
-"TF_IM_Steel_CapC"	"Capturing C extends bridges to E."
-"TF_IM_Steel_CapD"	"Capturing D blocks RED from easily reaching E."
-"TF_IM_Steel_Bridge"	"Without the bridges, E cannot be reached by everyone."
-"TF_IM_Steel_Pit"	"Watch out for the pit!"
+"TF_IM_Steel_Intro"	"Steelは攻撃・防衛マップだ。"
+"TF_IM_Steel_BlueWin"	"BLUはラウンドに勝つためにポイントEを制圧しなければならない。"
+"TF_IM_Steel_PlotTwist"	"しかし..."
+"TF_IM_Steel_FinalCap"	"ポイントEは常に制圧可能だ。BLUはいつでも制圧できる。"
+"TF_IM_Steel_Points"	"A、B、C、Dのポイントを制圧するとEを奪いやすくなる！"
+"TF_IM_Steel_CapA"	"Aを制圧するとBとEへの追加ルートが開く。"
+"TF_IM_Steel_CapB"	"Bを制圧するとREDのスポーンルームが移動し、Cへの追加ルートも開く。"
+"TF_IM_Steel_CapC"	"Cを制圧するとEへの橋が伸びる。"
+"TF_IM_Steel_CapD"	"Dを制圧するとREDがEへ容易に到達できなくなる。"
+"TF_IM_Steel_Bridge"	"橋がなければ、誰もEに到達できない。"
+"TF_IM_Steel_Pit"	"落とし穴に注意！"
 
 // VIP Race
 "TF_IM_VIPR_Intro"	"VIPレースのゲームモードへようこそ"
-"TF_IM_VIPR_ToWin"	"To win, you must help your VIP capture the enemy Control Point..."
-"TF_IM_VIPR_Escape"	"...then escort them to the Escape Zone before the enemy team can do the same!"
-"TF_IM_VIPR_Death"	"If a VIP dies, any points they have captured will be reset"
-"TF_IM_VIPR_HUD"	"The status and progress of both VIPs can be found at the base of your screen"
+"TF_IM_VIPR_ToWin"	"勝つには、VIPが敵のコントロールポイントを制圧するのを助けなければならない..."
+"TF_IM_VIPR_Escape"	"...そして敵チームより先にVIPを脱出ゾーンまで護衛せよ！"
+"TF_IM_VIPR_Death"	"VIPが死亡すると、そのVIPが制圧したポイントは全てリセットされる"
+"TF_IM_VIPR_HUD"	"両チームのVIPの状態と進行状況は画面下部で確認できる"
 
 // ----------------------------------------------------------------
 // Scoreboard
@@ -1082,8 +1082,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_ScoreBoard_BonusLabel"			"ボーナス："
 
 "TF_ScoreBoard_UberchargesLabel"	"ユーバーチャージ："
-"TF_ScoreBoard_TransportsLabel"		"Transports:"
-"TF_ScoreBoard_DestructionsLabel"	"Destructions:"
+"TF_ScoreBoard_TransportsLabel"		"テレポート："
+"TF_ScoreBoard_DestructionsLabel"	"破壊数："
 "TF_ScoreBoard_HeadshotsLabel"		"ヘッドショット："
 "TF_ScoreBoard_BackstabsLabel"		"背後からの襲撃："
 
@@ -1115,10 +1115,10 @@ Team ownership of Control Points is randomized at the start of each round."
 "Winpanel_GreenMVPs"		"GRNのMVP："
 "Winpanel_YellowMVPs"		"YLWのMVP："
 
-"Winreason_KOTHPointHeld"		"%s1 held the Control Point until time ran out"
-"Winreason_PayloadPushed"		"%s1 pushed the payload to the final terminus"
-"Winreason_ArenaPointCaptured"	"%s1 captured the Control Point"
-"Winreason_RoundScoreLimit"		"%s1 reached %s2 points"
+"Winreason_KOTHPointHeld"		"%s1が時間切れまでコントロールポイントを保持した"
+"Winreason_PayloadPushed"		"%s1がペイロードを終点まで押し進めた"
+"Winreason_ArenaPointCaptured"	"%s1がコントロールポイントを制圧した"
+"Winreason_RoundScoreLimit"		"%s1が%s2ポイントに達した"
 "Winreason_VIPEscaped"			"VIPが脱出した"
 "Winreason_VIPKilled"			"VIPが殺害された"
 
@@ -1173,13 +1173,13 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 
 // Loadout gamemode indicator
-"TF_Loadout_Modifier_StockItemsOnly"		"Stock Items Only!"
-"TF_Loadout_Modifier_MedievalItemsOnly"		"\"Medieval\" Items Only!"
-"TF_Loadout_Modifier_RandomizerClasses"		"Randomized Classes!"
-"TF_Loadout_Modifier_RandomizerItems"		"Randomized Items!"
-"TF_Loadout_Modifier_RandomizerAttributes"	"Randomized Attributes!"
-"TF_Loadout_Modifier_RandomizerMayhem"		"Randomizer Mayhem!"
-"TF_Loadout_Modifier_CustomWeaponsEnabled"	"Custom Weapons Enabled!"
+"TF_Loadout_Modifier_StockItemsOnly"		"デフォルト装備のみ！"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"「中世」アイテムのみ！"
+"TF_Loadout_Modifier_RandomizerClasses"		"クラスがランダム化！"
+"TF_Loadout_Modifier_RandomizerItems"		"アイテムがランダム化！"
+"TF_Loadout_Modifier_RandomizerAttributes"	"属性がランダム化！"
+"TF_Loadout_Modifier_RandomizerMayhem"		"ランダマイザー大混乱！"
+"TF_Loadout_Modifier_CustomWeaponsEnabled"	"カスタム武器有効！"
 
 // Item slot types
 "TF_Loadout_Slot_Invalid"		"無効"
@@ -1192,17 +1192,17 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Loadout_Slot_PDA2"			"PDA2"
 
 // Item slot vanity names
-"TF_Loadout_Slot_Secondary_Medic"	"Medi Gun"
-"TF_Loadout_Slot_Building_Spy"		"Sapper"
-"TF_Loadout_Slot_PDA2_Spy"			"Watch"
+"TF_Loadout_Slot_Secondary_Medic"	"メディガン"
+"TF_Loadout_Slot_Building_Spy"		"サッパー"
+"TF_Loadout_Slot_PDA2_Spy"			"ウォッチ"
 
-"TF_Loadout_Close"				"Close"
-"TF_Loadout_Back"				"Back"
-"TF_Loadout_Defaults"			"Default"
+"TF_Loadout_Close"				"閉じる"
+"TF_Loadout_Back"				"戻る"
+"TF_Loadout_Defaults"			"デフォルト"
 
 // Reset inventory
-"TF_ConfirmDefaultInventory_Title"		"Default Loadout"
-"TF_ConfirmDefaultInventory_Message"	"Are you sure you want to return to default items for this class?"
+"TF_ConfirmDefaultInventory_Title"		"デフォルト装備"
+"TF_ConfirmDefaultInventory_Message"	"このクラスのデフォルトアイテムに戻してよろしいですか？"
 "TF_ConfirmDefaultInventory_OK"			"はい"
 
 // ----------------------------------------------------------------
@@ -1211,12 +1211,12 @@ Team ownership of Control Points is randomized at the start of each round."
 
 // TODO this is one big mess
 // Keyboard Options
-"TF2c_KeyboardCategory_Movement"        "MOVEMENT"
-"TF2c_KeyboardCategory_Combat"          "COMBAT"
-"TF2c_KeyboardCategory_Communication"   "COMMUNICATION"
+"TF2c_KeyboardCategory_Movement"        "移動"
+"TF2c_KeyboardCategory_Combat"          "戦闘"
+"TF2c_KeyboardCategory_Communication"   "コミュニケーション"
 "TF2c_KeyboardCategory_UI"  		 	"UI"
-"TF2c_KeyboardCategory_Extra"			"EXTRA"
-"TF2c_UseDefaultsButton"				"Reset Binds"
+"TF2c_KeyboardCategory_Extra"			"その他"
+"TF2c_UseDefaultsButton"				"キーバインドをリセット"
 "TF_ClassSkill_Spy_Spywalk"				"スパイ：スパイワック"
 "TF_Voice_Menu_0_0"						"音声コマンド：メディック！"
 "TF_Voice_Menu_0_1"						"音声コマンド：ありがとう！"
@@ -1229,29 +1229,29 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Voice_Menu_1_6"						"音声コマンド：チャージを頼む！"
 "TF_Voice_Menu_1_7"						"音声コマンド：（メディック）ユーバーチャージの準備完了"
 "TF_Voice_Menu_2_0"						"音声コマンド：助けてくれ！"
-"TF_Spec_Next"							"Next Spectate Target"
-"TF_Spec_Prev"							"Previous Spectate Target"
-"TF_Spec_Mode"							"Switch Spectate Mode"
-"TF_Use"								"Use (Interact)"
+"TF_Spec_Next"							"次の観戦対象"
+"TF_Spec_Prev"							"前の観戦対象"
+"TF_Spec_Mode"							"観戦モードを切り替える"
+"TF_Use"								"使用（インタラクト）"
 "TF_Kill"								"殺す（自分）"
 "TF_Explode"							"炸裂する（自分）"
 
 // Scoreboard Options
-"TF_Enable"								"Enable"
-"TF_Disable"							"Disable"
-"TF_RightClick_Enable"					"Right-Click to Enable"
-"TF_RightClick_Enable_Mouse"			"Right-Click to Enable Mouse"
+"TF_Enable"								"有効"
+"TF_Disable"							"無効"
+"TF_RightClick_Enable"					"右クリックで有効化"
+"TF_RightClick_Enable_Mouse"			"右クリックでマウスを有効化"
 
 // UI options
-"TF_Open_Charinfo"						"Open Character Loadout"
+"TF_Open_Charinfo"						"キャラクター装備を開く"
 
-"TF2c_EnableGamepad"					"Enable Gamepad"
+"TF2c_EnableGamepad"					"ゲームパッドを有効化"
 
-"TF2c_MouseRawInput"					"Raw Input"
-"TF2c_MouseSensitivity"					"Mouse Sensitivity"
-"TF2c_MouseSmoothing"					"Mouse Smoothing"
-"TF2c_MouseAcceleration"				"Mouse Acceleration"
-"TF2c_MouseAccelerationStrength"		"Mouse Acceleration Strength"
+"TF2c_MouseRawInput"					"ロー入力"
+"TF2c_MouseSensitivity"					"マウス感度"
+"TF2c_MouseSmoothing"					"マウス・スムージング"
+"TF2c_MouseAcceleration"				"マウス加速"
+"TF2c_MouseAccelerationStrength"		"マウス加速の強度"
 
 "TF2c_Options_Game"                     "ゲーム"
 "TF2c_Options_Input"                    "入力"
@@ -1260,8 +1260,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_Options_MultiPlayer"              "ムルティプラヤー"
 
 "TF2c_OptionCategory_Mouse"				"マウス"
-"TF2c_OptionCategory_Joystick"			"GAMEPAD"
-"TF2c_OptionCategory_Keyboard"			"KEYBOARD"
+"TF2c_OptionCategory_Joystick"			"ゲームパッド"
+"TF2c_OptionCategory_Keyboard"			"キーボード"
 
 "TF2c_OptionCategory_Graphics"			"グラフィック"
 "TF2c_OptionCategory_Video"				"ビデオ"
@@ -1271,147 +1271,147 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_OptionCategory_Language"			"言語"
 "TF2c_OptionCategory_Voice"				"音声"
 
-"TF2c_OptionCategory_Combat"			"COMBAT"
+"TF2c_OptionCategory_Combat"			"戦闘"
 "TF2c_OptionCategory_HUD"				"HUD"
-"TF2c_OptionCategory_ViewModel"			"VIEWMODEL"
-"TF2c_OptionCategory_ClassSpecific"		"CLASS SPECIFIC"
-"TF2c_OptionCategory_Performance"		"PERFORMANCE"
-"TF2c_OptionCategory_Misc"				"MISC"
-"TF2c_OptionCategory_Replay"			"REPLAY"
-"TF2c_OptionCategory_DemoSupport"		"DEMO"
-"TF2c_OptionCategory_Communication"		"COMMS"
+"TF2c_OptionCategory_ViewModel"			"ヴューモデル"
+"TF2c_OptionCategory_ClassSpecific"		"クラス別設定"
+"TF2c_OptionCategory_Performance"		"パフォーマンス"
+"TF2c_OptionCategory_Misc"				"その他"
+"TF2c_OptionCategory_Replay"			"リプレイ"
+"TF2c_OptionCategory_DemoSupport"		"デモ"
+"TF2c_OptionCategory_Communication"		"通信"
 
-"TF2c_OptionCategory_CustomizationMultiplayer"			"Customization"
-"TF2c_OptionCategory_Network"							"NETWORK"
+"TF2c_OptionCategory_CustomizationMultiplayer"			"カスタマイズ"
+"TF2c_OptionCategory_Network"							"ネットワーク"
 
-"TF2c_MuteUnfocused"					"Mute unfocused"
+"TF2c_MuteUnfocused"					"非フォーカス時にミュート"
 
-"TF2c_Options_Custom"					"Custom"
+"TF2c_Options_Custom"					"カスタム"
 
-"TF2c_ChatFilterSettingsButton"			"Open Settings"
+"TF2c_ChatFilterSettingsButton"			"設定を開く"
 
-"GameUI_CloseWithoutSaving"				"Close without Saving"
-"GameUI_CloseWithoutSavingText" 		"Are you sure you want to close?\n All unsaved changes will be lost!"
-"GameUI_Legacy"							"Legacy Menu"
-"GameUI_Effect_Detail"          		"Effect detail"
-"GameUI_VeryLow"               			"Very Low"
-"GameUI_Off"               				"Off"
+"GameUI_CloseWithoutSaving"				"保存せずに閉じる"
+"GameUI_CloseWithoutSavingText" 		"本当に閉じますか？\n 保存していない変更はすべて失われます！"
+"GameUI_Legacy"							"レガシーメニュー"
+"GameUI_Effect_Detail"          		"エフェクト品質"
+"GameUI_VeryLow"               			"最低"
+"GameUI_Off"               				"オフ"
 "GameUI_Everyone"               		"皆"
 "GameUI_FriendsOnly"               		"友達のみ"
 
-"GameUI_Restart"						"Restart required"
-"GameUI_RestartText"					"Some changes you have made require the game to be restarted:"
-"GameUI_OptionsRestart_Revert"			"Revert changes"
+"GameUI_Restart"						"再起動が必要"
+"GameUI_RestartText"					"加えた変更の一部を反映するにはゲームの再起動が必要です："
+"GameUI_OptionsRestart_Revert"			"変更を元に戻す"
 
-"GameUI_Disconnect_TooManyCommands"		"Disconnect: Too many commands."
+"GameUI_Disconnect_TooManyCommands"		"切断：コマンドが多すぎます。"
 
 // Combat
-"TF2C_Option_DamageFeedback"				"Enable damage feedback"
-"TF2C_Tooltip_DamageFeedback"				"Damage feedback plays contextual sounds when dealing or taking different types of damage"
-"TF2C_Option_DamageFeedbackOutgoing"		"Enable outgoing damage feedback"
-"TF2C_Tooltip_DamageFeedbackOutgoing"		"Outgoing damage feedback sounds play when dealing damage to enemies"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"Damage feedback outgoing volume"
-"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"The volume of the contextual sounds played when dealing damage"
-"TF2C_Option_DamageFeedbackIncoming"		"Enable incoming damage feedback"
-"TF2C_Tooltip_DamageFeedbackIncoming"		"Incoming damage feedback sounds play when taking damage"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"Damage feedback incoming volume"
-"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"The volume of the contextual sounds played when taking damage"
+"TF2C_Option_DamageFeedback"				"ダメージフィードバックを有効化"
+"TF2C_Tooltip_DamageFeedback"				"ダメージフィードバックは、異なる種類のダメージを与えたり受けたりした際に状況に応じた音を再生します"
+"TF2C_Option_DamageFeedbackOutgoing"		"発信ダメージフィードバックを有効化"
+"TF2C_Tooltip_DamageFeedbackOutgoing"		"発信ダメージフィードバック音は、敵にダメージを与えた際に再生されます"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"発信ダメージフィードバックの音量"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"ダメージを与えた際に再生される状況音の音量"
+"TF2C_Option_DamageFeedbackIncoming"		"受信ダメージフィードバックを有効化"
+"TF2C_Tooltip_DamageFeedbackIncoming"		"受信ダメージフィードバック音は、ダメージを受けた際に再生されます"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"受信ダメージフィードバックの音量"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"ダメージを受けた際に再生される状況音の音量"
 
-"TF_CenterFirePreference"         	"Prefer projectiles to fire from the center"
-"TF_CenterFirePreference_Tip"    	"If set, projectiles' spawn position Y coordinate is set to 0 for player; requires player to be disconnected or spectating to apply"
-"TF_BurningDeathAnim"				"Enable burning death animations"
-"TF_BurningDeathAnim_Tip"			"If set, ragdolls will have a chance to play a special death animation when dying from fire"
-"TF_CombatTextBatchingWindow"		"Delay between accumulated combat text damage events"
-"TF_CombatTextBatchingWindow_Tip"	"Maximum delay between damage events in order to batch numbers."
-"TF_CombatTextDropShadow"           "Display combat text with drop shadow"
-"TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text."
+"TF_CenterFirePreference"         	"プロジェクタイルを中央から発射することを優先する"
+"TF_CenterFirePreference_Tip"    	"有効にすると、プレイヤーのプロジェクタイル発射位置のY座標が0に設定されます。適用には切断または観戦状態が必要です"
+"TF_BurningDeathAnim"				"燃焼死亡アニメーションを有効化"
+"TF_BurningDeathAnim_Tip"			"有効にすると、炎で死亡したラグドールが特殊な死亡アニメーションを再生することがあります"
+"TF_CombatTextBatchingWindow"		"蓄積された戦闘テキストのダメージイベント間の遅延"
+"TF_CombatTextBatchingWindow_Tip"	"数字をまとめるためのダメージイベント間の最大遅延。"
+"TF_CombatTextDropShadow"           "戦闘テキストにドロップシャドウを表示する"
+"TF_CombatTextDropShadow_Tip"       "有効にすると、戦闘テキストにドロップシャドウが表示されます。"
 
 // ClassSpecific
-"TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops double-tap"
-"TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire."
-"TF_SapperAwareness"                "ENGINEER: Sapper awareness"
-"TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color."
-"TF_SniperBell"					    "SNIPER: Play Sound on Full Charge"
-"TF_SniperBell_Tip"					"Play a sound when the Sniper rifle is fully charged"
-"TF_ZoomSensitivityRatio"			"SNIPER: Zoom sensitivity ratio"
-"TF_ZoomSensitivityRatio_Tip"		"Adjusts scoped zoom sensitivity"
-"TF_SpywalkInverted"				"SPY: Use Spywalk by default"
-"TF_SpywalkInverted_Tip"			"If set, uses Spywalk speed by default, and normal movement speed with the Spywalk bind"
-"TF_ViewModelCloakTint"				"SPY: Viewmodel cloak tint"
-"TF_ViewModelCloakTint_Tip"			"Allow viewmodels to be tinted while cloaked"
-"TF_AvoidBecomingVIP"				"CIVILIAN: Avoid becoming the VIP"
-"TF_AvoidBecomingVIP_Tip"			"If set, you won't be usually considered when the game chooses a VIP; you can be still picked if everyone has this option set or if you are voted"
+"TF_CyclopsDoubleTap"             	"デモマン：サイクロプスのダブルタップを有効化"
+"TF_CyclopsDoubleTap_Tip"        	"有効にすると、サイクロプスの手榴弾は主攻撃ボタンを離す代わりに、もう一度クリックして起爆する必要があります。"
+"TF_SapperAwareness"                "エンジニア：サッパー検知"
+"TF_SapperAwareness_Tip"            "有効にすると、建物へのサッパー警告が別の色で表示されます。"
+"TF_SniperBell"					    "スナイパー：フルチャージ時に音を再生"
+"TF_SniperBell_Tip"					"スナイパーライフルがフルチャージになったときに音を再生します"
+"TF_ZoomSensitivityRatio"			"スナイパー：ズーム感度の比率"
+"TF_ZoomSensitivityRatio_Tip"		"スコープ時のズーム感度を調整します"
+"TF_SpywalkInverted"				"スパイ：デフォルトでスパイウォークを使用"
+"TF_SpywalkInverted_Tip"			"有効にすると、デフォルトでスパイウォーク速度を使用し、スパイウォークバインドで通常の移動速度になります"
+"TF_ViewModelCloakTint"				"スパイ：ビューモデルのクロークの色"
+"TF_ViewModelCloakTint_Tip"			"クローク中にビューモデルを着色できるようにします"
+"TF_AvoidBecomingVIP"				"シヴィルリアン：VIPになることを避ける"
+"TF_AvoidBecomingVIP_Tip"			"有効にすると、ゲームがVIPを選ぶ際に通常は候補から外れます。ただし全員がこのオプションを設定している場合や投票で選ばれた場合はVIPになる可能性があります"
 
 // HUD
-"TF_LoadoutGrid"                  "Enable loadout grid"
-"TF_LoadoutGrid_Tip"              "If set, the weapon loadout page will be displayed as a grid"
-"TF_HighlightAmmo"				  "Display glow outlines on dropped weapons"
-"TF_HighlightAmmo_Tip"			  "If set, dropped weapons will have glow outlines to highlight their locations"
-"TF_ScoreBoardShowAvatars"		  "Display avatars on the scoreboard"
-"TF_ShowCurrentWeapon"		  	  "Display currently equipped weapon"
-"TF_OverlayToastPosition"         "Position of Steam overlay notifications"
-"TF_TopLeft"                      "Top-left"
-"TF_TopRight"                     "Top-right"
-"TF_BottomLeft"                   "Bottom-left"
-"TF_BottomRight"                  "Bottom-right"
-"TF_OverlayToastInsetHoriz"       "Horizontal inset of Steam notifications"
-"TF_OverlayToastInsetVert"        "Vertical inset of Steam notifications"
-"TF_TargetID_Floating_Health"	  "Target ID - Enable floating healthbar"
-"TF_TargetID_Floating_Health_Tip" "If set, displays healthbar above character"
-"TF_TargetID_Alpha"				  "Target ID - Name plate background transparency"
-"TF_TargetID_Alpha_Tip"			  "Set the translucency the TargetID name plate background"
-"TF_TargetID_Show_Avatars"		  "Target ID - Display Avatars on Target ID"
-"TF_TargetID_Show_Avatars_Tip"	  "Display Steam avatars on Target ID"
-"TF_HideKeybinds"                 "Hide displayed in-game keybinds"
-"TF_HideKeybinds_Tip"			  "Disable display of keybinds shown on in-game HUD."
-"TF_AlternativeTimer"             "Use alternative in-game timer"
-"TF_AlternativeTimer_Tip"         "If set, will use an alternative mono font timer."
-"TF_DisableDropShadow"            "Disable drop shadow"
-"TF_DisableDropShadow_Tip"        "If set, removes drop shadow from most text and images."
-"TF_DeathNoticeMax"               "Death Notice - Maximum visible amount"
-"TF_DeathNoticeMax_Tip"           "Sets the max amount of death notice entries at the same time."
-"TF_DeathNoticeTime"              "Death Notice - Expiry time for entries (in seconds)"
-"TF_DeathNoticeTime_Tip"          "Sets the expiry time for death notice items."
-"TF_GlowEffects"				  "Use glow effects"
-"TF_GlowEffects_Tip" 			  "If set, glow effects will be enabled during the match for objectives like VIPs, Payload carts, and CTF intelligence briefcases."
+"TF_LoadoutGrid"                  "装備グリッドを有効化"
+"TF_LoadoutGrid_Tip"              "有効にすると、武器装備ページがグリッド表示になります"
+"TF_HighlightAmmo"				  "落とした武器に発光アウトラインを表示"
+"TF_HighlightAmmo_Tip"			  "有効にすると、落とした武器に発光アウトラインが表示されて位置がわかりやすくなります"
+"TF_ScoreBoardShowAvatars"		  "スコアボードにアバターを表示"
+"TF_ShowCurrentWeapon"		  	  "現在装備中の武器を表示"
+"TF_OverlayToastPosition"         "Steamオーバーレイ通知の位置"
+"TF_TopLeft"                      "左上"
+"TF_TopRight"                     "右上"
+"TF_BottomLeft"                   "左下"
+"TF_BottomRight"                  "右下"
+"TF_OverlayToastInsetHoriz"       "Steam通知の水平オフセット"
+"TF_OverlayToastInsetVert"        "Steam通知の垂直オフセット"
+"TF_TargetID_Floating_Health"	  "ターゲットID - フローティング体力バーを有効化"
+"TF_TargetID_Floating_Health_Tip" "有効にすると、キャラクターの上に体力バーが表示されます"
+"TF_TargetID_Alpha"				  "ターゲットID - ネームプレート背景の透明度"
+"TF_TargetID_Alpha_Tip"			  "ターゲットIDのネームプレート背景の半透明度を設定します"
+"TF_TargetID_Show_Avatars"		  "ターゲットID - アバターを表示"
+"TF_TargetID_Show_Avatars_Tip"	  "ターゲットIDにSteamアバターを表示します"
+"TF_HideKeybinds"                 "ゲーム内のキーバインド表示を隠す"
+"TF_HideKeybinds_Tip"			  "ゲーム内HUDに表示されるキーバインドの表示を無効にします。"
+"TF_AlternativeTimer"             "代替ゲーム内タイマーを使用"
+"TF_AlternativeTimer_Tip"         "有効にすると、代替の等幅フォントタイマーが使用されます。"
+"TF_DisableDropShadow"            "ドロップシャドウを無効化"
+"TF_DisableDropShadow_Tip"        "有効にすると、ほとんどのテキストと画像からドロップシャドウが削除されます。"
+"TF_DeathNoticeMax"               "デスノーティス - 最大表示件数"
+"TF_DeathNoticeMax_Tip"           "同時に表示されるデスノーティスの最大件数を設定します。"
+"TF_DeathNoticeTime"              "デスノーティス - エントリーの表示時間（秒）"
+"TF_DeathNoticeTime_Tip"          "デスノーティスの表示時間を設定します。"
+"TF_GlowEffects"				  "発光エフェクトを使用"
+"TF_GlowEffects_Tip" 			  "有効にすると、試合中にVIP、ペイロードカート、CTFブリーフケースなどの目標に発光エフェクトが表示されます。"
 
 // ViewModel
-"TF_ViewModelFOV"				"Viewmodel Field of View"
-"TF_FlipViewModels"				"Flip Viewmodels"
-"TF_InvisibleArms"				"Use Invisible Arm Viewmodels"
-"TF_ViewModelOpacity"			"Viewmodel Opacity"
+"TF_ViewModelFOV"				"ビューモデルの視野角"
+"TF_FlipViewModels"				"ビューモデルを反転"
+"TF_InvisibleArms"				"腕の非表示ビューモデルを使用"
+"TF_ViewModelOpacity"			"ビューモデルの不透明度"
 
 // Misc
-"TF_ClassAutoKill"					"Force respawn after choosing player class"
-"TF_ClassAutoKill_Tip"				"If set, immediately forces respawn whenever you change class while out in the field.\n\nIf unset, change class on respawn."
-"TF_ClassMenu_Music"				"Class selection menu music"
-"TF_StreamerMode"					"Enable streamer mode"
-"TF_StreamerMode_Tip"				"If set, hides all text chat and anonymizes everyone, including you."
-"TF_ModelMuzzleFlash"				"Enable beta model muzzleflash"
-"TF_ModelMuzzleFlash_Tip"			"If set, muzzleflashes will use models instead of particles"
+"TF_ClassAutoKill"					"クラス選択後に強制リスポーン"
+"TF_ClassAutoKill_Tip"				"有効にすると、フィールドにいる間にクラスを変更するたびに即座に強制リスポーンします。\n\n無効にすると、リスポーン時にクラスを変更します。"
+"TF_ClassMenu_Music"				"クラス選択メニューの音楽"
+"TF_StreamerMode"					"ストリーマーモードを有効化"
+"TF_StreamerMode_Tip"				"有効にすると、すべてのテキストチャットを非表示にし、自分を含む全員を匿名化します。"
+"TF_ModelMuzzleFlash"				"ベータモデルのマズルフラッシュを有効化"
+"TF_ModelMuzzleFlash_Tip"			"有効にすると、マズルフラッシュにパーティクルではなくモデルが使用されます"
 
 // Voice
-"TF2c_Option_Proximity_Voice_Local"	"Enable Proximity Voice Chat."
+"TF2c_Option_Proximity_Voice_Local"	"近接ボイスチャットを有効化。"
 
 // Multiplayer
-"TF_MessageAlert"				    "Enable chat message sound"
-"TF_MessageAlert_Tip"			    "If set, a sound will play when a chat message is received"
-"TF_MessageVolume"				    "Chat message sound volume"
-"TF_ChatCloseOnSend"				"Close chat on message send"
-"TF_ChatCloseOnSend_Tip"			"If set, closes chat after sending a message"
-"TF_DownloadFilter_Title"			"Permissions for custom files downloaded from servers"
-"GameUI_DownloadFilter_All"			"Allow all custom files"
-"GameUI_DownloadFilter_NoSounds"	"No custom sounds"
-"GameUI_DownloadFilter_MapsOnly"	"Only map files"
-"GameUI_DownloadFilter_None"		"No custom files"
-"TF_Network_Rate"       			"Network update rate"
-"TF_Network_Rate_Tip"       		"Sets network update rate, which inversely sets interpolation amount.\n\nRecommended to try each and see which feels best on your network connection."
+"TF_MessageAlert"				    "チャットメッセージ受信音を有効化"
+"TF_MessageAlert_Tip"			    "有効にすると、チャットメッセージを受信した際に音が再生されます"
+"TF_MessageVolume"				    "チャットメッセージ音の音量"
+"TF_ChatCloseOnSend"				"メッセージ送信時にチャットを閉じる"
+"TF_ChatCloseOnSend_Tip"			"有効にすると、メッセージ送信後にチャットを閉じます"
+"TF_DownloadFilter_Title"			"サーバーからダウンロードするカスタムファイルの許可設定"
+"GameUI_DownloadFilter_All"			"すべてのカスタムファイルを許可"
+"GameUI_DownloadFilter_NoSounds"	"カスタムサウンドなし"
+"GameUI_DownloadFilter_MapsOnly"	"マップファイルのみ"
+"GameUI_DownloadFilter_None"		"カスタムファイルなし"
+"TF_Network_Rate"       			"ネットワーク更新レート"
+"TF_Network_Rate_Tip"       		"ネットワーク更新レートを設定します。これにより補間量が逆に設定されます。\n\nご自身のネットワーク環境で最適なものを試してみることをお勧めします。"
 
 // Video
-"TF2c_Option_ClassicShading"		"Classic shading"
-"TF2c_Option_ClassicShading_Tip"	"If set, enables full-lambertian shading for player materials"
-"TF2c_Option_BloomScale"			"Bloom scale"
-"TF2c_Option_FramerateLimit"		"Framerate Limit"
+"TF2c_Option_ClassicShading"		"クラシックシェーディング"
+"TF2c_Option_ClassicShading_Tip"	"有効にすると、プレイヤーマテリアルに完全なランバートシェーディングが適用されます"
+"TF2c_Option_BloomScale"			"ブルームのスケール"
+"TF2c_Option_FramerateLimit"		"フレームレート制限"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1422,14 +1422,14 @@ Team ownership of Control Points is randomized at the start of each round."
 
 "TF_NextTip"							"次のヒント"
 																								   
-"Stat_PadJumps"							"JUMPPADS"
+"Stat_PadJumps"							"ジャンプパッド"
 
-"StatPanel_Label_PadJumps"				"# of pad jumps: "
+"StatPanel_Label_PadJumps"				"ジャンプパッド数："
 
-"TF_ClassRecord_MostUbercharges"		"Most ÜberCharges:"
-"TF_ClassRecord_Alt_MostUbercharges"	"ÜberCharge(s)"
-"TF_ClassRecord_MostPadJumps"			"Most pad jumps:"
-"TF_ClassRecord_Alt_MostPadJumps"		"pad jump(s)"
+"TF_ClassRecord_MostUbercharges"		"最多ユーバーチャージ数："
+"TF_ClassRecord_Alt_MostUbercharges"	"ユーバーチャージ数"
+"TF_ClassRecord_MostPadJumps"			"最多ジャンプパッド使用回数："
+"TF_ClassRecord_Alt_MostPadJumps"		"ジャンプパッド"
 
 "StatPanel_Ubercharges_Best"			"このラウンドでは、不死身になった回数が自己ベストを上回りました。"
 "StatPanel_Ubercharges_Tie"				"このラウンドでは、不死身になった回数が自己記録に並びました。"
@@ -1438,21 +1438,21 @@ Team ownership of Control Points is randomized at the start of each round."
 "StatPanel_MVM_Ubercharges_Tie"			"このMann vs. Machineラウンドでは、不死身になった回数が自己記録に並びました。"
 "StatPanel_MVM_Ubercharges_Close"		"このMann vs. Machineラウンドでは、不死身になった回数が自己記録に迫りました。"
 
-"StatPanel_PadJumps_Best"				"Your jump pads were used more that round than your previous best."
-"StatPanel_PadJumps_Tie"				"You tied your record for pad jumps that round."
-"StatPanel_PadJumps_Close"				"You came close to your record for pad jumps that round."
-"StatPanel_MVM_PadJumps_Best"			"Your jump pads were used more that round of Mann vs. Machine than your previous best."
-"StatPanel_MVM_PadJumps_Tie"			"You tied your record for pad jumps that round of Mann vs. Machine."
-"StatPanel_MVM_PadJumps_Close"			"You came close to your record for pad jumps that round of Mann vs. Machine."
+"StatPanel_PadJumps_Best"				"そのラウンドのジャンプパッド使用回数が自己ベストを更新した。"
+"StatPanel_PadJumps_Tie"				"そのラウンドのジャンプパッド使用回数で記録に並んだ。"
+"StatPanel_PadJumps_Close"				"そのラウンドのジャンプパッド使用回数で記録に近づいた。"
+"StatPanel_MVM_PadJumps_Best"			"Mann vs. Machineのそのラウンドのジャンプパッド使用回数が自己ベストを更新した。"
+"StatPanel_MVM_PadJumps_Tie"			"Mann vs. Machineのそのラウンドのジャンプパッド使用回数で記録に並んだ。"
+"StatPanel_MVM_PadJumps_Close"			"Mann vs. Machineのそのラウンドのジャンプパッド使用回数で記録に近づいた。"
 // ----------------------------------------------------------------
 // Achievements
 // ----------------------------------------------------------------
 
 // Achievement groups
-"Achievement_Group_3000"	"Offense Classes （%s2分の%s1）"
-"Achievement_Group_3100"	"Defense Classes （%s2分の%s1）"
-"Achievement_Group_3200"	"Support Classes （%s2分の%s1）"
-"Achievement_Group_3300"	"Maps and Gamemodes （%s2分の%s1）"
+"Achievement_Group_3000"	"攻撃クラス （%s2分の%s1）"
+"Achievement_Group_3100"	"防衛クラス （%s2分の%s1）"
+"Achievement_Group_3200"	"サポートクラス （%s2分の%s1）"
+"Achievement_Group_3300"	"マップとゲームモード （%s2分の%s1）"
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"計算された事故"
@@ -1513,9 +1513,9 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"めんどりのめまい"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"ニワトリを追い立てて、環境キルを狙う。"
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"三重スパイ"
-"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"4チーム戦の1ラウンド中に、敵対する全3チームのプレイヤーをそれぞれ1人ずつ、背後から刺す。"
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"四チーム戦の1ラウンド中に、敵対する全3チームのプレイヤーをそれぞれ1人ずつ、背後から刺す。"
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"完全支配"
-"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"Dominationラウンド中、チームで全コントロールポイントを制圧する。"
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"ドミネーションラウンド中、チームで全コントロールポイントを制圧する。"
 "TF2C_ACHIEVEMENT_SHAME_NAME"							"恥のバッジ"
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"敵のVIPに倒された。お前には烙印が押された。"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"破壊的な批判"
@@ -1525,45 +1525,45 @@ Team ownership of Control Points is randomized at the start of each round."
 // Discord Rich Presence
 // ----------------------------------------------------------------
 
-"Discord_InMenu"					"In menus"
-"Discord_InMenu_ToolTip"			"Main Menu"
-"Discord_IsLoading"					"Is currently loading..."
+"Discord_InMenu"					"メニュー中"
+"Discord_InMenu_ToolTip"			"メインメニュー"
+"Discord_IsLoading"					"読み込み中..."
 "Discord_IsLoading_ToolTip"			"ロード中..."
-"Discord_InOfficialMap"				"Official Map: %s1"
-"Discord_InCommunityMap"			"Community Map: %s1"
-"Discord_InServer_Info"				"On server: %s1"
+"Discord_InOfficialMap"				"公式マップ: %s1"
+"Discord_InCommunityMap"			"コミュニティマップ: %s1"
+"Discord_InServer_Info"				"サーバー: %s1"
 
 // ----------------------------------------------------------------
 // Server Browser
 // ----------------------------------------------------------------
 "ServerBrowser_PlayerCount" 		"%s1/%s2"
-"ServerBrowser_LatencyDetail" 		"Latency: %s1"
+"ServerBrowser_LatencyDetail" 		"レイテンシ: %s1"
 "ServerBrowser_IPAddressDetail" 	"IPアドレス: %s1"
-"ServerBrowser_PlayerListHeading"	"Players (%s1/%s2, %s3 bots):"
-"ServerBrowser_NotFullFilter" 		"Server not full"
-"ServerBrowser_HasPlayersFilter" 	"Has players"
-"ServerBrowser_NoPasswordFilter" 	"Has no password"
-"ServerBrowser_HasTagsFilter" 		"Has tags"
-"ServerBrowser_MaxLatencyFilter" 	"Max latency"
-"ServerBrowser_MaxPlayersFilter" 	"Max players"
-"ServerBrowser_ServerTypeFilter" 	"Server type"
-"ServerBrowser_MapNameFilter" 		"Map name"
-"ServerBrowser_SortBy" 				"Sort by:"
+"ServerBrowser_PlayerListHeading"	"プレイヤー (%s1/%s2、%s3ボット):"
+"ServerBrowser_NotFullFilter" 		"空きがあるサーバー"
+"ServerBrowser_HasPlayersFilter" 	"プレイヤーがいる"
+"ServerBrowser_NoPasswordFilter" 	"パスワードなし"
+"ServerBrowser_HasTagsFilter" 		"タグあり"
+"ServerBrowser_MaxLatencyFilter" 	"最大レイテンシ"
+"ServerBrowser_MaxPlayersFilter" 	"最大プレイヤー数"
+"ServerBrowser_ServerTypeFilter" 	"サーバーの種類"
+"ServerBrowser_MapNameFilter" 		"マップ名"
+"ServerBrowser_SortBy" 				"並び替え："
 "ServerBrowser_SortByName" 			"名前"
 "ServerBrowser_SortByMap" 			"マップ"
 "ServerBrowser_SortByPlayers" 		"プレイヤー"
-"ServerBrowser_SortByLatency" 		"Latency"
-"ServerBrowser_SortByLastPlayed" 	"Last played"
-"ServerBrowser_UseLegacyBrowser" 	"Use legacy browser"
+"ServerBrowser_SortByLatency" 		"レイテンシ"
+"ServerBrowser_SortByLastPlayed" 	"最終プレイ日時"
+"ServerBrowser_UseLegacyBrowser" 	"レガシーブラウザを使用"
 "ServerBrowser_CurrentMapHeading" 	"今のマップ"
-"ServerBrowser_TagListHeading" 		"Tags:"
+"ServerBrowser_TagListHeading" 		"タグ："
 "ServerBrowser_OfficialDetail" 		"このサーバーは公式"
 "ServerBrowser_VerifiedDetail" 		"このサーバーは認証済み"
 "ServerBrowser_Any" 				"任意"
 "ServerBrowser_Official" 			"公式"
 "ServerBrowser_Verified" 			"認証済み"
 "ServerBrowser_OfficialOrVerified" 	"公式または認証済み"
-"ServerBrowser_CustomRules"			"Custom Rules"
-"ServerBrowser_CustomWeapons" 		"Custom Weapons"
+"ServerBrowser_CustomRules"			"カスタムルール"
+"ServerBrowser_CustomWeapons" 		"カスタム武器"
 }
 }
