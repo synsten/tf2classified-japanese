@@ -56,8 +56,8 @@
 
 // VIP voting
 "Vote_ChangeCivilian"				"VIPを変更"
-"TF_vote_change_civilian"			"プレイヤー%s1をVIPに選ぶか？"
-"TF_vote_change_civilian_caller"	"プレイヤー%s1がVIPになりたい"
+"TF_vote_change_civilian"			"プレイヤー「%s1」をVIPに選ぶか？"
+"TF_vote_change_civilian_caller"	"プレイヤー「%s1」がVIPになりたい"
 "TF_vote_passed_change_civilian"	"VIPはプレイヤー:%s1になる..."
 
 // Player list dialog
