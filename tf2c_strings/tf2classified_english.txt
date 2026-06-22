@@ -789,10 +789,10 @@
 "Amaranth_cap_B"	"RED's Shipping Facility"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, the Warehouse"
-"Hydro_dom_cap_radar_dish"	"B, the Radar Dish"
-"Hydro_dom_cap_power_plant"	"C, the Power Plant"
-"Hydro_dom_cap_dam"			"D, the Dam"
+"Hydro_dom_cap_warehouse"	"cap A, the Warehouse"
+"Hydro_dom_cap_radar_dish"	"cap B, the Radar Dish"
+"Hydro_dom_cap_power_plant"	"cap C, the Power Plant"
+"Hydro_dom_cap_dam"			"cap D, the Dam"
 
 // vip_mineside
 "vip_mineside_description"	"Objective:
@@ -1325,9 +1325,6 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_CombatTextBatchingWindow_Tip"	"Maximum delay between damage events in order to batch numbers"
 "TF_CombatTextDropShadow"           "Display combat text with drop shadow"
 "TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text"
-
-"TF2C_CalloutBubbles"				"Enable callout bubbles"
-"TF2C_CalloutBubbles_Tip"			"If set, voice commands will show additional callout bubbles over players"
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops double-tap"
