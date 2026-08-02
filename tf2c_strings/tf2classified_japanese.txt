@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"音声コマンド"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"チームは自動的にスクランブルされます（チーム間のスコア差が大きいため）"
+"TF_Scramble_NoCap"				"チームは自動的にスクランブルされます（このラウンドで目標の進展が不十分だったため）"
+"TF_Scramble_WinStreak"			"チームは自動的にスクランブルされます（%s1チームが%s2回連続で勝利したため）"
+"TF_Scramble_Manual_NextRound"	"次のラウンドのチームスクランブルが手動で予定されました"
+"TF_Scramble_NextRound"			"次のラウンドのチームスクランブルが予定されています"
+"TF_Scramble_Manual_Now"		"チームは手動でスクランブル中"
+"TF_Scramble_Now"				"チームはスクランブル中"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -1071,11 +1083,13 @@ VIPが不在の場合、どのチームもコントロールポイントの制�
 // Scoreboard
 // ----------------------------------------------------------------
 
-"TF_ScoreBoard_Player"				"%s1 プレイヤー"
-"TF_ScoreBoard_Players"				"%s1 プレイヤー数"
+"TF_ScoreBoard_NextLevel"			"Next Level: %s1"
 
-"ScoreBoard_Spectator"				"%s1 観戦： %s2"
-"ScoreBoard_Spectators"				"%s1 観戦数： %s2"
+"TF_ScoreBoard_Player"				"%s1プレイヤー"
+"TF_ScoreBoard_Players"				"%s1プレイヤー数"
+
+"ScoreBoard_Spectator"				"%s1観戦：%s2"
+"ScoreBoard_Spectators"				"%s1観戦数：%s2"
 
 "TF_ScoreBoard_KillsLabel"			"キル："
 "TF_ScoreBoard_AssistsLabel"		"アシスト："
