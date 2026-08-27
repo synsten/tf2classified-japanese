@@ -121,9 +121,10 @@
 "TF_playerid_diffteam"					"%s1(敵) %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"変装中 (%s1 %s2)"
+
+"TF_playerid_wpn"						"%s1"
 "TF_playerid_wpn_ammo_clip"				"%s1  -  弾薬: %s2 (%s3)"
 "TF_playerid_wpn_ammo"					"%s1  -  弾薬: %s2"
-"TF_playerid_wpn"						"%s1"
 
 // Boosts
 "TF_playerid_healer"					"(治療者) "
@@ -138,18 +139,24 @@
 "TF_playerid_object_diffteam"			"敵の%s1 (%s2)"
 "TF_playerid_object_mini"				"ミニ-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"レベル%s1"
-"TF_playerid_object_upgrade"			"アップグレード: %s1"
-"TF_playerid_object_upgrade_level"		"レベル%s1  -  アップグレード: %s2"
-"TF_playerid_object_upgrading"			"アップグレード中..."
-"TF_playerid_object_upgrading_level"	"レベル%s1  -  アップグレード中..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"建設中..."
-"TF_playerid_object_building_level"		"レベル%s1  -  建設中..."
-"TF_playerid_object_tranq"				" （妨害された）"
-"TF_playerid_teleporter_no_entrance"	"  -  テレポーターの入口なし"
-"TF_playerid_teleporter_no_exit"		"  -  テレポーターの出口なし"
+
+"TF_playerid_object_upgrading"			"アップグレード中..."
+"TF_playerid_object_level_upgrade"		"レベル%s1  -  アップグレード: %s2"
+"TF_playerid_object_level_upgrading"	"レベル%s1  -  アップグレード中..."
+"TF_playerid_object_level_building"		"レベル%s1  -  建設中..."
+
+"TF_playerid_object_no_entrance"		"  -  テレポーターの入口なし"
+"TF_playerid_object_no_exit"			"  -  テレポーターの出口なし"
 "TF_playerid_object_recharging"			"  -  リチャージ中: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
+"TF_playerid_object_disabled"			"無力化"
 "TF_playerid_object_flooded"			"浸水中"
+"TF_playerid_object_sapped"				"サップした"
+
 "TF_playerid_carrying"					"運んでいる: %s1"
 "TF_playerid_carrying_lvl"				"運んでいる: %s1 (レベル%s2)"
 
@@ -661,6 +668,7 @@
 // Building Status
 "Building_hud_hauling"				"運搬中..."
 "Building_hud_upgrading"			"アップグレード中..."
+"Building_hud_ready"				"準備完了"							   
 "Building_hud_jumppad_a_not_built"	"ジャンプパッドA\n未設置"
 "Building_hud_jumppad_b_not_built"	"ジャンプパッドB\n未設置"
 
@@ -914,9 +922,13 @@ BLUがスーツケース装置を届けると、ゲートのタイマーが60秒
 "Gametype_Domination"		"ドミネーション"
 "Gametype_MedDomination"	"ドミネーション（中世）"
 "Gametype_KOTF"				"キング・オブ・ザ・フラッグ"
-"Gametype_TD"				"テリトリアルドミネーション"
+"Gametype_TD"				"領土ドミネーション"
 "Gametype_VIP"				"VIP"
 "Gametype_VIPRace"			"VIPレース"
+"Gametype_DM"				"デスマッチ"
+"Gametype_TDM"				"チーム・デスマッチ"
+"Gametype_RCTF"				"逆さキャプチャー・ザ・フラッグ"
+"Gametype_FF"				"フォートレス・フォーエバー"
 
 "Gametype_FourTeam"			"四チーム戦"
 
@@ -935,6 +947,8 @@ BLUがスーツケース装置を届けると、ゲートのタイマーが60秒
 "Gametype_Training_FourTeam"		"トレーニングモード（四チーム戦）"
 "Gametype_VIP_FourTeam"				"VIP（四チーム戦）"
 "Gametype_VIPRace_FourTeam"			"VIPレース（四チーム戦）"
+"Gametype_TDM_FourTeam"				"チーム・デスマッチ（四チーム戦）"
+"Gametype_RCTF_FourTeam"			"逆さキャプチャー・ザ・フラッグ（四チーム戦）"
 
 // Offline practice descriptions
 "TF_GameModeDesc_VIP"			"BLUはシビルリアンをコントロールポイントまで護衛する。REDはこれを阻止しなければならない。"
@@ -977,6 +991,8 @@ VIPが不在の場合、BLUチームはコントロールポイントの制圧�
 
 "Cant_cap_civilian_only"		"このポイントを制圧できるのは\n VIPだけだ。"
 "Cant_cap_civilian_only_frozen"	"制圧停止中\n このポイントを制圧できるのは\n VIPだけだ。"
+
+"TF_CantChangeClassAsVIP"		"VIPのときはクラスを変更できない。"
 
 // VIP (Lives)
 "vipl_setup_goal_offense"	"VIPを脱出ゾーンまで護衛し、撃破されないようにせよ。"
@@ -1051,6 +1067,10 @@ VIPが不在の場合、どのチームもコントロールポイントの制�
 "TF_Arena_Welcome"				"アリーナモード"
 "TF_Arena_Team_SizeIncreased"	"%s1チームの人数が%s2に増えた。"
 "TF_Arena_Team_SizeDecreased"	"%s1チームの人数が%s2に減った。"
+
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"クラスがランダム化されている間はクラスを変更できない。"
+"Hint_randomizer_check_loadout"				"「%s1」を押してランダム化されたロードアウトを表示する。"
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1153,18 +1173,18 @@ VIPが不在の場合、どのチームもコントロールポイントの制�
 "TF_Menu_Welcome"			"おかえり、"
 "TF_Menu_Name"				"%playername%！"
 
-"TF_Menu_HideName"			"［検閲済み］"
+"TF_Menu_StreamerMode"		"ストリーマーモード"
 
 "TF_Menu_ResumeGame"		"ゲームに戻る"
-"TF_Menu_Mute"				"プレイヤーをミュートにする"
+"TF_Menu_Mute"				"プレイヤーをミュートする"
 "TF_Menu_Vote"				"投票の呼びかけ"
 
-"TF_Menu_FindServers"		"サーバーを探す"
-"TF_Menu_CreateServer"		"サーバーを作成する"
-"TF_Menu_OfflineTraining"	"オフライン・プラクティス"
+"TF_Menu_FindServers"		"サーバーを見付ける"
+"TF_Menu_CreateServer"		"サーバーを作る"
+"TF_Menu_OfflineTraining"	"オフライン訓練"
 
 "TF_Menu_Loadout"			"装備"
-
+"TF_Menu_HideName"			"［検閲済み］"
 "TF_Menu_Achievements"		"実績"
 "TF_Menu_Stats"				"データ"
 
@@ -1178,6 +1198,9 @@ VIPが不在の場合、どのチームもコントロールポイントの制�
 "TF_Menu_ReportBug"			"バグを報告"
 "TF_Menu_Donate"			"施す"
 
+"TF_Menu_ShowFriends"		"友達を見せる"
+"TF_Menu_HideFriends"		"友達を隠す"
+
 "TF_Friends_Title"					"友達(%friend_count%)"
 "TF_Friends_Status_InTF2C"			"TF2Cをプレイ中"
 "TF_Friends_Status_Idle_InTF2C"		"TF2Cで放置中"
@@ -1188,6 +1211,10 @@ VIPが不在の場合、どのチームもコントロールポイントの制�
 "TF_Friends_Status_Online"			"オンライン"
 "TF_Friends_Status_Away"			"アウェイ"
 "TF_Friends_Status_Offline"			"オフライン"
+
+"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
+"TF_RichPresence_State_JoiningServer"			"サーバーに参加中"
 
 "ChallengeDetails"					"%s2役の%s1"
 
@@ -2010,7 +2037,7 @@ VIPが不在の場合、どのチームもコントロールポイントの制�
 "TF_Quickplay_MaxPlayers_DontCare_Summary" "24+人"
 
 "TF_TradeStartDialog_SelectProfile"		"Steamプロフィール"
-"TF_TradeStartDialog_FriendsNone"		"TF2をプレイ中の\nフレンドがいません。"
+"TF_TradeStartDialog_FriendsNone"		"TF2をプレイ中の\n友達がいません。"
 "TF_TradeStartDialog_ProfileHelp"		"URLの形式は、次のどちらかにする必要があります。\nhttp://steamcommunity.com/id/<プロフィール名>\nhttp://steamcommunity.com/profiles/<プロフィール番号>"
 
 "TF_Player_OptionalVision"		"%player%はローマビジョンを有効にするHardy Laurelを持っており、全員に共有されます！"
@@ -2020,7 +2047,7 @@ VIPが不在の場合、どのチームもコントロールポイントの制�
 
 "TF_Armory_Item_Gift1"				"このアクションアイテムを使用すると、サーバーにいる別の1人のプレイヤーに、アイテムをランダムに与えることができます。"
 
-"TF_SelectPlayer_SelectFriends"		"フレンドリスト"
+"TF_SelectPlayer_SelectFriends"		"友達リスト"
 "TF_SelectPlayer_Friends"			"友達の選択："
 "TF_SelectPlayer_FriendsNone"		"TF2をプレイ中の\n友達がいません。"
 
@@ -2034,7 +2061,7 @@ VIPが不在の場合、どのチームもコントロールポイントの制�
 
 "Vote_notification_text"		"%initiator%は投票を呼びかけました"
 
-"TF_Trial_SelectMostHelpfulFriend_Text"  "Team Fortress 2をあなたに紹介したのは誰ですか？誰が一番助けてくれましたか？Steamオーバーレイを開いて、フレンドを追加しましょう。"
+"TF_Trial_SelectMostHelpfulFriend_Text"  "Team Fortress 2をあなたに紹介したのは誰ですか？誰が一番助けてくれましたか？Steamオーバーレイを開いて、友達を追加しましょう。"
 "TF_Trial_Alert_SelectFriend"	"ここから、あなたにTeam Fortress 2を紹介した人または一番助けてくれた人に感謝できます！"
 
 "IT_NoModel"		"＜未選択＞"
