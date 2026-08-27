@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"聲音指令"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"隊伍將自動重新分隊（隊伍間的分數差距過大）"
+"TF_Scramble_NoCap"				"隊伍將自動重新分隊（本回合的目標進度不足）"
+"TF_Scramble_WinStreak"			"隊伍將自動重新分隊（%s1 隊伍已連續獲勝 %s2 次）"
+"TF_Scramble_Manual_NextRound"	"已手動安排於下一回合重新分隊"
+"TF_Scramble_NextRound"			"已安排於下一回合重新分隊"
+"TF_Scramble_Manual_Now"			"正在手動重新分隊"
+"TF_Scramble_Now"				"正在重新分隊"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -109,9 +121,10 @@
 "TF_playerid_diffteam"					"%s1（敵人） %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"偽裝成 (%s1 %s2)"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  彈藥：%s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  彈藥：%s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  彈藥：%s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  彈藥：%s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"（治療者）"
@@ -126,23 +139,29 @@
 "TF_playerid_object_diffteam"			"敵人 %s1 (%s2)"
 "TF_playerid_object_mini"				"迷你-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"(第 %s1 級)"
-"TF_playerid_object_upgrade"			"升級進度：%s1"
-"TF_playerid_object_upgrade_level"		"(第 %s1 級)  -  升級進度：%s2"
-"TF_playerid_object_upgrading"			"升級中..."
-"TF_playerid_object_upgrading_level"	"(第 %s1 級)  -  升級中..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"建造中..."
-"TF_playerid_object_building_level"		"(第 %s1 級)  -  建造中..."
-"TF_playerid_object_tranq"				" （被侵入）"
-"TF_playerid_teleporter_no_entrance"	"  -  沒有符合的傳送裝置入口！"
-"TF_playerid_teleporter_no_exit"		"  -  沒有符合的傳送裝置出口！"
+
+"TF_playerid_object_level"				"第 %s1 級"
+"TF_playerid_object_level_upgrade"		"(第 %s1 級) 升級進度：%s2"
+"TF_playerid_object_level_upgrading"	"(第 %s1 級) 升級中..."
+"TF_playerid_object_level_building"		"(第 %s1 級) 建造中..."
+
+"TF_playerid_object_no_entrance"		"  -  沒有符合的傳送裝置入口！"
+"TF_playerid_object_no_exit"		    "  -  沒有符合的傳送裝置出口！"
 "TF_playerid_object_recharging"			"  -  充電中：%s1%"
-"TF_playerid_object_flooded"			"被淹沒"
+
+"TF_playerid_object_status_effect"		"(%s1) "
+"TF_playerid_object_disabled"			"已停用"
+"TF_playerid_object_flooded"			"已淹沒"
+"TF_playerid_object_sapped"				"癱瘓"
+
 "TF_playerid_carrying"					"正在搬運：%s1"
 "TF_playerid_carrying_lvl"				"正在搬運：%s1 （第 %s2 級）"
 
-"TF_friendly"	"友方"
-"TF_enemy"		"敵方"
+"TF_friendly"							"友方"
+"TF_enemy"								"敵方"
 
 // ----------------------------------------------------------------
 // Respawning
@@ -649,6 +668,7 @@
 // Building Status
 "Building_hud_hauling"				"建造中..."
 "Building_hud_upgrading"			"升級中..."
+"Building_hud_ready"				"就緒"
 "Building_hud_jumppad_a_not_built"	"彈射板 A\n未建造"
 "Building_hud_jumppad_b_not_built"	"彈射板 B\n未建造"
 
@@ -966,6 +986,8 @@
 "Cant_cap_civilian_only"		"無法佔領\n只有VIP才能\n佔領這個控制點。"
 "Cant_cap_civilian_only_frozen"	"只有VIP才能\n佔領這個控制點。"
 
+"TF_CantChangeClassAsVIP"		"作為 VIP 時無法更換兵種。"
+
 // VIP (Lives)
 "vipl_setup_goal_offense"	"護送 VIP 前往撤離區，保護他免受敵方刺客追擊。"
 "vipl_setup_goal_defense"	"擊殺敵方 VIP 或阻止其抵達撤離區即可獲勝！"
@@ -1040,6 +1062,10 @@
 "TF_Arena_Team_SizeIncreased"	"%s1 隊伍人數已增至 %s2。"
 "TF_Arena_Team_SizeDecreased"	"%s1 隊伍人數已減至 %s2。"
 
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"隨機職業期間無法變更職業。"
+"Hint_randomizer_check_loadout"				"按下「%s1」鍵查看隨機裝備。"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1070,6 +1096,8 @@
 // ----------------------------------------------------------------
 // Scoreboard
 // ----------------------------------------------------------------
+
+"TF_ScoreBoard_NextLevel"			"下一張地圖: %s1"
 
 "TF_ScoreBoard_Player"				"%s1 位玩家"
 "TF_ScoreBoard_Players"				"%s1 位玩家"
@@ -1137,9 +1165,9 @@
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"歡迎回來，"
-"TF_Menu_Name"				"%playername%！"
+"TF_Menu_Name"				"%playername%"
 
-"TF_Menu_HideName"			"[已編輯]"
+"TF_Menu_StreamerMode"		"直播模式"
 
 "TF_Menu_ResumeGame"		"繼續遊戲"
 "TF_Menu_Mute"				"將玩家靜音"
@@ -1164,6 +1192,9 @@
 "TF_Menu_ReportBug"			"錯誤回報"
 "TF_Menu_Donate"			"贊助"
 
+ "TF_Menu_ShowFriends"		"顯示好友列表"
+"TF_Menu_HideFriends"		"隱藏好友列表"
+
 "TF_Friends_Title"					"好友（%friend_count%）"
 "TF_Friends_Status_InTF2C"		    "正在遊玩絕地要塞2：秘典"
 "TF_Friends_Status_Idle_InTF2C"	    "在絕地要塞2：秘典裡閒置"
@@ -1175,7 +1206,12 @@
 "TF_Friends_Status_Away"		    "離開"
 "TF_Friends_Status_Offline"		    "離線"
 
+"TF_RichPresence_State_InServer"		"遊戲中 - %mapname%（%maptype%）"
+"TF_RichPresence_State_JoiningServer"	"正在加入伺服器"
+
 "ChallengeDetails"					"%s1 扮演 %s2"
+
+"TF_NextChallenge"					"下一項挑戰"
 
 
 // ----------------------------------------------------------------
@@ -1326,6 +1362,8 @@
 "TF2C_Tooltip_DamageFeedbackIncoming"		"當你承受傷害時，會播放承受傷害回饋音效。"
 "TF2C_Option_DamageFeedbackIncomingVolume"	"承受傷害回饋音效音量"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"調整承受傷害時播放回饋音效音量。"
+"TF2C_Option_CalloutBubbles"				"啟用語音提示"
+"TF2C_Tooltip_CalloutBubbles"				"啟用後，大多數語音選單指令會顯示提示泡泡。"
 
 "TF_CenterFirePreference"         	"從中心區域發射子彈（首選）"
 "TF_CenterFirePreference_Tip"    	"若勾選，玩家的子彈生成位置 Y 座標將設為 0；需要玩家重新連接或處於旁觀狀態才能應用。"
@@ -1339,8 +1377,6 @@
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"爆破兵：啟用獨眼大炮雙擊引爆"
 "TF_CyclopsDoubleTap_Tip"        	"勾選後，獨眼大砲榴彈需雙擊開火鍵才能引爆，而非鬆開開火鍵。"
-"TF_SapperAwareness"                "工程師：電子破壞器感應"
-"TF_SapperAwareness_Tip"            "若勾選，當建築物被電子破壞器攻擊時，警告會以另一種顏色顯示。"
 "TF_SniperBell"					    "狙擊手：狙擊槍會在充電完畢時發出提示聲響"
 "TF_SniperBell_Tip"					"狙擊槍充電完畢時播放音效。"
 "TF_ZoomSensitivityRatio"			"狙擊手：瞄準鏡靈敏度比例"
@@ -1422,6 +1458,12 @@
 "TF2c_Option_ClassicShading_Tip"	"若勾選，玩家角色模型材質將使用 full-lambertian 著色。"
 "TF2c_Option_BloomScale"	        "泛光強度"
 "TF2c_Option_FramerateLimit"		"幀數限制"
+ "TF2c_Option_Brightness"			"亮度"
+"TF2c_Option_Brightness_Tip"		"【僅限全螢幕】調整螢幕伽瑪值"
+
+// TF30
+"TF_EnableClassicVision"			"啟用 Classic-Vision"
+"TF_EnableClassicVision_Tip"		"使用《Team Fortress》30 週年紀念內容。\n如果在遊戲中切換此選項，變更將在離開目前伺服器或伺服器切換地圖後生效。"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1530,6 +1572,33 @@
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"死於敵方 VIP 之手。你已被烙上恥辱的印記。"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"毀滅性批判"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"壓制一名擁有貢獻者勳章的玩家。"
+// TF30 Achievements
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_NAME"		"天罰"
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_DESC"		"使用敵方跳射板後不久，以背刺擊殺一名敵人。"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_NAME"				"粉絲福利"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_DESC"				"讓其他玩家使用你的跳射板 1000 次。"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_NAME"		"彈射起步"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_DESC"		"讓隊友在使用你的跳射板後不久後累計取得 20 次擊殺。"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_NAME"				"幕後之主"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_DESC"				"作為平民，在掩體後方協助隊友抵擋敵人 2000 點傷害。"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"最佳老闆"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"讓一名受到你的雨傘強化的隊友擊殺 3 名敵人。"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"照看小老弟"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"在我方平民仍存活時，擊殺 20 名最近傷害過他的敵人。"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"在下詹姆斯"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"在單次生命中使用左輪手槍取得 3 次擊殺。"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"熾熱迴響"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"作為火焰兵，在死亡期間造成 1000 點灼傷傷害。"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"傳送觀光"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"將其他玩家傳送超過 10 公里。"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"毋懼死神"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"擊殺手持死神之刃的敵方火焰兵，讓 5 名隊友免於被燒死。"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"契訶夫的什麼？"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"作為重裝兵，使用霰彈槍取得 10 次爆擊擊殺。"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"戳破幻想"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"使用再生癒合炮對自己進行 ÜberCharge 時取得 5 次擊殺。"
+"TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"迅猛行動"
+"TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"作為平民，利用德比手杖的速度加成，協助盟友擊殺 50 名敵人。"
 
 // ----------------------------------------------------------------
 // Discord Rich Presence
@@ -1575,5 +1644,12 @@
 "ServerBrowser_OfficialOrVerified"  "官方或驗證"
 "ServerBrowser_CustomRules"	        "自訂規則"
 "ServerBrowser_CustomWeapons"       "自訂武器"
+
+// ----------------------------------------------------------------
+// MOTD titles
+// ----------------------------------------------------------------
+
+"TF_Welcome_birthday"			"歡迎，祝絕地要塞2生日樂!"
+"TF_Welcome_qwtf_birthday"		"歡迎，祝雷神之鎚生日樂!"
 }
 }

@@ -5,24 +5,21 @@ on:
     paths:
       - "tf2c_strings/**"
     branches: [ "main" ]
-    
+  pull_request:
+    paths:
+      - "tf2c_strings/**"
   workflow_dispatch:
 
 jobs:
   convert:
+    name: Convert to UTF-16LE ( Game )
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Convert UTF-8 to UTF-16LE
-        run: |
-          mkdir -p converted_tf2c_strings
-          find tf2c_strings -type f | while read -r file; do
-            out="converted_tf2c_strings/${file#tf2c_strings/}"
-            mkdir -p "$(dirname "$out")"
-            iconv -f UTF-8 -t UTF-16LE "$file" -o "$out"
-          done
+        run: ./convert.sh tf2c_strings
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

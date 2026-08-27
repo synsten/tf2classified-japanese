@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"Sprachbefehle"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"Teams werden automatisch gemischt (Großer Unterschied der Punkte zwischen den Teams)"
+"TF_Scramble_NoCap"				"Teams werden automatisch gemischt (Nicht genügend Fortschritte wurden in dieser Runde erzielt)"
+"TF_Scramble_WinStreak"			"Teams werden automatisch gemischt (Team %s1 hat %s2 Mal hintereinander gewonnen)"
+"TF_Scramble_Manual_NextRound"	"Ein Team wird in der nächsten Runde manuell gemischt"
+"TF_Scramble_NextRound"			"Ein Team wird in der nächsten Runde gemischt"
+"TF_Scramble_Manual_Now"		"Teams werden manuell gemischt"
+"TF_Scramble_Now"				"Teams werden gemischt"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -109,9 +121,10 @@
 "TF_playerid_diffteam"					"feindlicher %s1 %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Verkleidet als %s1 %s2"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Muni: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Muni: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Muni: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Muni: %s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"Heiler: "
@@ -124,27 +137,29 @@
 // Buildings
 "TF_playerid_object"					"%s1 gebaut von %s2"
 "TF_playerid_object_diffteam"			"%s1 gebaut vom Gegner %s2"
-"TF_playerid_object_mini"				"Mini-%s1 gebaut von %s2"
-"TF_playerid_object_mode"				"%s1 %s3 gebaut von %s2"
-"TF_playerid_object_level"				"Level %s1"
-"TF_playerid_object_upgrade"			"Upgrade-Fortschritt: %s1"
-"TF_playerid_object_upgrade_level"		"Level %s1  -  Upgrade-Fortschritt: %s2"
-"TF_playerid_object_upgrading"			"Wird upgegradet..."
-"TF_playerid_object_upgrading_level"	"Level %s1  -  Wird upgegradet..."
+"TF_playerid_object_mini"				"Mini-%s1 (%s2)"
+"TF_playerid_object_mode"				"%s1 %s3 (%s2)"
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Wird gebaut..."
-"TF_playerid_object_building_level"		"Level %s1  -  Wird gebaut..."
-"TF_playerid_object_tranq"				" (SABOTIERT)"
+
+"TF_playerid_object_level"				"Level %s1"
+"TF_playerid_object_level_upgrade"		"(Level %s1) Upgrade-Fortschritt: %s2"
+"TF_playerid_object_level_upgrading"	"(Level %s1) Wird upgegradet..."
+"TF_playerid_object_level_building"		"(Level %s1) Wird gebaut..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Kein Eingang-Teleporter"
 "TF_playerid_teleporter_no_exit"		"  -  Kein Ausgang-Teleporter"
 "TF_playerid_object_recharging"			"  -  Neu laden: %s1%"
-"TF_playerid_object_inactive"			"Inaktiv"
-"TF_playerid_object_ready"				"Bereit"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Überflutet"
+
 "TF_playerid_carrying"					"Gebäude: %s1"
 "TF_playerid_carrying_lvl"				"Gebäude: %s1 (Level %s2)"
 
-"TF_friendly"	"verbündeter"
-"TF_enemy"		"gegnerischer"
+"TF_friendly"							"verbündeter"
+"TF_enemy"								"gegnerischer"
 
 // ----------------------------------------------------------------
 // Respawning
@@ -905,6 +920,10 @@ Nur mit Nahkampfwaffen kämpfen ist ein ehrenvoller Kampf!"
 "Gametype_TD"				"Territoriale Dominierung"
 "Gametype_VIP"				"VIP"
 "Gametype_VIPRace"			"VIP-Rennen"
+"Gametype_DM"				"Deathmatch"
+"Gametype_TDM"				"Team Deathmatch"
+"Gametype_RCTF"				"Flagge eskortieren"
+"Gametype_FF"				"Fortress Forever"
 
 "Gametype_FourTeam"	"Vier-Team"
 
@@ -923,6 +942,8 @@ Nur mit Nahkampfwaffen kämpfen ist ein ehrenvoller Kampf!"
 "Gametype_Training_FourTeam"		"Trainingsmodus (Vier-Team)"
 "Gametype_VIP_FourTeam"				"VIP (Vier-Team)"
 "Gametype_VIPRace_FourTeam"			"VIP-Rennen (Vier-Team)"
+"Gametype_TDM_FourTeam"				"Team Deathmatch (Vier-Team)"
+"Gametype_RCTF_FourTeam"			"Flagge eskortieren (Vier-Team)"
 
 // Offline practice descriptions
 "TF_GameModeDesc_VIP"			"Team BLU eskortiert den Civilian zum Kontrollpunkt. Team RED muss ihn aufhalten."
@@ -1037,6 +1058,10 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Arena_Team_SizeIncreased"	"Die Teamgröße von %s1 wurde auf %s2 erhöht."
 "TF_Arena_Team_SizeDecreased"	"Die Teamgröße von %s1 wurde auf %s2 verringert."
 
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"Sie können Ihre Klasse nicht ändern, während Ihre Ausrüstung zufällig generiert ist."
+"Hint_randomizer_check_loadout"				"Drücken Sie die '%s1' , um Ihre zufällig generierte Ausrüstung zu zeigen."
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1067,6 +1092,8 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 // ----------------------------------------------------------------
 // Scoreboard
 // ----------------------------------------------------------------
+
+"TF_ScoreBoard_NextLevel"			"Nächstes Level: %s1"
 
 "TF_ScoreBoard_JumppadJumpsLabel"	"Sprungpl.:"
 "TF_ScoreBoard_Player"				"%s1 Spieler"
@@ -1136,7 +1163,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Menu_Welcome"			"Willkommen zurück,"
 "TF_Menu_Name"				"%playername%!"
 
-"TF_Menu_HideName"			"[ZENSIERT]"
+"TF_Menu_StreamerMode"		"Streamer-Modus"
 
 "TF_Menu_ResumeGame"		"Fortsetzen"
 "TF_Menu_Mute"				"Spieler stummschalten"
@@ -1157,9 +1184,12 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Menu_Quit"				"Spiel beenden"
 "TF_Menu_Disconnect"		"Verbindung trennen"
 
-"TF_Menu_Blog"				"TF2C Webseite"
+"TF_Menu_Blog"				"Webseite"
 "TF_Menu_ReportBug"			"Fehler melden"
 "TF_Menu_Donate"			"Spenden"
+
+"TF_Menu_ShowFriends"		"Freundesliste zeigen"
+"TF_Menu_HideFriends"		"Freundesliste schließen"
 
 "TF_Friends_Title"					"Freunde (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Spielt TF2C"
@@ -1172,8 +1202,13 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Friends_Status_Away"			"Abwesend"
 "TF_Friends_Status_Offline"			"Offline"
 
+"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
+"TF_RichPresence_State_JoiningServer"			"Tretet einem Server bei"
+
 "ChallengeDetails"					"%s1 als %s2"
 
+"TF_NextChallenge"					"Nächste Herausforderung"
 
 // ----------------------------------------------------------------
 // Loadout
@@ -1337,6 +1372,12 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Erlittenem Schaden werden Sounds für Schadens-Feedback abgespielt"
 "TF2C_Option_DamageFeedbackIncomingVolume"	"Lautstärke des erlittenem Schadens-Feedbacks"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Lautstärke der kontextbezogenen Sounds anpassen, die bei erlittenem Schaden abgespielt werden"
+"TF2C_Option_LowHealthSound"				"Bevorstehender Exitus-Sound aktivieren"
+"TF2C_Tooltip_LowHealthSound"				"Wenn eingeschaltet, ertönt ein Warnsignal, sobald Ihre Gesundheit unter einen bestimmten Prozentsatz fällt"
+"TF2C_Option_LowHealthSoundThreshold"		"Schwellenwert für bevorstehender Exitus-Sound"
+"TF2C_Tooltip_LowHealthSoundThreshold"		"Ab welchen Prozentsatz das Warnsignal für niedrigeren Gesundheit abgespielt wird"
+"TF2C_Option_CalloutBubbles"				"Sprechblase aktivieren"
+"TF2C_Tooltip_CalloutBubbles"				"Wenn eingeschaltet, werden die meisten Sprachbefehle als Sprechblasen angezeigt."
 
 "TF_CenterFirePreference"         	"Projektile aus der Mitte abfeuern"
 "TF_CenterFirePreference_Tip"    	"Wenn eingeschaltet, setzt die Y-Koordinate der Spawn-Position von Projektilen für den Spieler auf 0; der Spieler muss die Verbindung trennen oder in den Zuschauermodus wechseln, um diese Einstellung anzuwenden"
@@ -1346,9 +1387,6 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "TF_CombatTextBatchingWindow_Tip"	"Trommelt die Zahlen zwischen maximaler Verzögerung und Schaden"
 "TF_CombatTextDropshadow"			"Kampftext mit Schlagschatten anzeigen"
 "TF_CombatTextDropshadow_Tip"		"Wenn eingeschaltet, zeigt der Kampftext mit Schlagschatten an"
-
-"TF2C_CalloutBubbles"				"Dialogblasen aktivieren"
-"TF2C_CalloutBubbles_Tip"			"Wenn eingeschaltet, werden Sprachbefehle als Dialogblasen über dem Spieler angezeigt"
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Zyklopen-Feuertaste zweimal drücken aktivieren"
@@ -1439,6 +1477,14 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "TF2c_Option_ClassicShading_Tip"	"Wenn eingeschaltet, wird Lambert-Schattierung für Spielermodell aktivert."
 "TF2c_Option_BloomScale"	        "Bloom-Skalierung"
 "TF2c_Option_FramerateLimit"		"Begrenzung für die Bildrate"
+"TF2c_Option_FramerateLimit"		"Bildrate-Limit"
+ "TF2c_Option_Brightness"			"Helligkeitsstufe"
+"TF2c_Option_Brightness_Tip"		"[NUR VOLLBILD] Gammastufe des Monitors anpassen"
+
+// TF30
+"TF_EnableClassicVision"			"Classic-Vision aktivieren"
+"TF_EnableClassicVision_Tip"		"Verwendet die Inhalte für Team Fortress 30. Jubiläum.\nWenn im Spiel eingeschaltet, wird die Änderung nur beim Trennung der Verbindung oder wenn der Server die Karte wechselt übernommen."
+
 
 // ----------------------------------------------------------------
 // Stats
@@ -1544,6 +1590,33 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Lassen Sie sich vom feindlichen VIP töten. Das hat sich jetzt vermerkt."
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Destruktive Kritik"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Dominieren Sie einen Spieler mit einer Mitwirkenden-Medaille."
+// TF30 Achievements
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_NAME"		"Himmel und Hölle"
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_DESC"		"Führen sie einen Rückenstich-Kill aus, kurz nachdem Sie eine gegnerische Sprungplattform benutzt haben."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_NAME"				"Luftunterstützung"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_DESC"				"Lassen Sie andere Spieler Ihrer Sprungplattformen 1.000 Mal benutzen."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_NAME"		"Sprunganfänger"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_DESC"		"Lassen Sie ihre Teamkameraden nach der Verwendung Ihrer Sprungplattformen 20 Kills erzielen."
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_NAME"				"Undercover-Boss"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_DESC"				"Helfen Sie als Civilian Ihren Teamkameraden, 2000 Schaden von Feinden abzuwehren, während Sie in Deckung sind."
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"Bester Chef der Welt"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"Lassen Sie einen Teamkameraden, der durch Ihren Regenschirm gestärkt wurde, 3 Feinde töten."
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"Pass auf den kleinen Racker auf"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"Töten Sie 20 Feinde, die Ihren VIP Schaden zugefügt haben, während er noch lebt."
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"Je Suis James"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"Erzielen Sie 3 Kills mit dem Revolver in einem einzigen Leben."
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"Der Feuergeist"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"Verursachen Sie als Pyro 1000 Nachbrenner-Schaden, während Sie tot sind."
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"Tele-Tourismus"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"Teleportieren Sie andere Spieler über 10 Kilometer."
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"Wer hat Angst vorm Sensenmann?"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"Retten Sie 5 Teamkameraden vor dem Tod durch Verbrennen, indem Sie feindliche Pyros, die den Harvester ausgerüstet haben, töten."
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"Was ist mit Tschehow?"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"Erzielen Sie als Heavy 20 kritische Kills mit der Schrotflinte."
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"Die Blase platzt"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"Töten Sie als Medic 5 Feinde, während Sie mit dem Knallkapselwerfer unverwundbar sind."
+"TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"Mach's schnell und kaputt"
+"TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"Helfen Sie als Civilian Ihren Verbündeten, 50 Feinde mit dem Hast-Boost Ihres Derby-Gehstock zu töten."
 
 // ----------------------------------------------------------------
 // Discord Rich Presence
@@ -1594,5 +1667,12 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "ServerBrowser_OfficialOrVerified" "Offiziell oder Verifiziert"
 "ServerBrowser_CustomRules"	"Benutzerdef. Regeln"
 "ServerBrowser_CustomWeapons" "Benutzerdef. Waffen"
+
+// ----------------------------------------------------------------
+// MOTD titles
+// ----------------------------------------------------------------
+
+"TF_Welcome_birthday"			"Willkommen und alles gute zum Geburtstag TF2!"
+"TF_Welcome_qwtf_birthday"		"Willkommen und alles gute zum Geburtstag QWTF!"
 }
 }
