@@ -1211,8 +1211,9 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Friends_Status_Online"						"Online"
 "TF_Friends_Status_Away"						"Away"
 "TF_Friends_Status_Offline"						"Offline"
+"TF_Friends_InviteServer"						"Invite to game"
 
-"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer"				"%mapname% (%maptype%)"
 "TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
 "TF_RichPresence_State_JoiningServer"			"Joining Server"
 
@@ -1351,6 +1352,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "GameUI_Off"               				"Off"
 "GameUI_Everyone"               		"Everyone"
 "GameUI_FriendsOnly"               		"Friends Only"
+"GameUI_CrosshairAlpha"					"Alpha"
 
 "GameUI_Restart"						"Restart required"
 "GameUI_RestartText"					"Some changes you have made require the game to be restarted:"

@@ -129,26 +129,26 @@
 "TF_playerid_wpn_ammo_clip"				"%s1\nMunição: %s2 / %s3"
 
 // Boosts
-"TF_playerid_healer"					"(Cura por) "
-"TF_playerid_healtarget"				"(Curando) "
-"TF_playerid_mediccharge"				"ÜberCarga: %s1"
-"TF_playerid_mediccharge_wpn"			"ÜberCarga: %s1 (%s2%)"
+"TF_playerid_healer"					"Cura por "
+"TF_playerid_healtarget"				"Curando "
+"TF_playerid_mediccharge"				"ÜberCarga: %s1%"
+"TF_playerid_mediccharge_wpn"			"ÜberCarga: %s2% (%s1)"
 "TF_playerid_civiliancharge"			"Bancando: %s1"
 "TF_playerid_civiliancharge_wpn"		"Bancando: %s1 (%s2%)"
 
 // Buildings
-"TF_playerid_object"					"%s1 (%s2)"
-"TF_playerid_object_diffteam"			"%s1 do inimigo (%s2)"
-"TF_playerid_object_mini"				"Mini-%s1 (%s2)"
-"TF_playerid_object_mode"				"%s1 %s3 (%s2)"
+"TF_playerid_object"					"%s1: construção de %s2"
+"TF_playerid_object_diffteam"			"%s1 do inimigo: construção de %s2"
+"TF_playerid_object_mini"				"Mini-%s1: construção de %s2"
+"TF_playerid_object_mode"				"%s1 - %s3: construção de %s2"
 "TF_playerid_object_ownerless"			"%s1"
 
 "TF_playerid_object_building"			"Construindo..."
 
-"TF_playerid_object_level"				"Nível %s1"
-"TF_playerid_object_level_upgrade"		"(Nível %s1) Aprimoramento: %s2"
-"TF_playerid_object_level_upgrading"	"(Nível %s1) Aprimorando..."
-"TF_playerid_object_level_building"		"(Nível %s1) Construindo..."
+"TF_playerid_object_level"				"( Nível %s1 )"
+"TF_playerid_object_level_upgrade"		"( Nível %s1 ) Aprimoramento: %s2"
+"TF_playerid_object_level_upgrading"	"( Nível %s1 ) Aprimorando..."
+"TF_playerid_object_level_building"		"( Nível %s1 ) Construindo..."
 
 
 "TF_playerid_teleporter_no_entrance"	"  -  Sem entrada"
@@ -159,10 +159,10 @@
 "TF_playerid_object_flooded"			"Inundado"
 
 "TF_playerid_carrying"					"Carregando: %s1"
-"TF_playerid_carrying_lvl"				"Carregando: %s1 (Nível %s2)"
+"TF_playerid_carrying_lvl"				"Carregando: %s1 ( Nível %s2 )"
 
-"TF_friendly"							"Aliado"
-"TF_enemy"								"Inimigo"
+"TF_friendly"							"aliado"
+"TF_enemy"								"inimigo"
 
 // ----------------------------------------------------------------
 // Respawning
@@ -669,6 +669,7 @@
 // Building Status
 "Building_hud_hauling"				"Carregando..."
 "Building_hud_upgrading"			"Aprimorando..."
+"Building_hud_ready"			    "Pronta"
 "Building_hud_jumppad_a_not_built"	"Saltador - A\nNão construído"
 "Building_hud_jumppad_b_not_built"	"Saltador - B\nNão construído"
 
@@ -676,8 +677,8 @@
 "TF_Object_Jump"					"Saltador"
 "TF_Object_Jump_A"					"Saltador - A"
 "TF_Object_Jump_B"					"Saltador - B"
-"TF_JumpPad_Mode_A"					"A"
-"TF_JumpPad_Mode_B"					"B"
+"TF_JumpPad_Mode_A"					"Plataforma A"
+"TF_JumpPad_Mode_B"					"Plataforma B"
 
 // ----------------------------------------------------------------
 // Weapon attributes
@@ -917,15 +918,19 @@ Apenas combate honrado, espada contra espada!"
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Capture o Pinguim" // We have fun here
-"Gametype_Domination"		"Dominação"
-"Gametype_MedDomination"	"Dominação (Medieval)"
-"Gametype_KOTF"				"Rei da Bandeira"
-"Gametype_TD"				"Dominação Territorial"
-"Gametype_VIP"				"VIP"
-"Gametype_VIPRace"			"Corrida de VIPs"
+"Gametype_CTF_Penguin"		        "Capture o Pinguim" // We have fun here
+"Gametype_Domination"		        "Dominação"
+"Gametype_MedDomination"	        "Dominação (Medieval)"
+"Gametype_KOTF"				        "Rei da Bandeira"
+"Gametype_TD"				        "Dominação Territorial"
+"Gametype_VIP"				        "VIP"
+"Gametype_VIPRace"			        "Corrida de VIPs"
+"Gametype_DM"						"Mata-Mata"
+"Gametype_TDM"						"Mata-Mata em Equipe"
+"Gametype_RCTF"						"Capture a Bandeira Reverso"
+"Gametype_FF"						"Fortress Forever"
 
-"Gametype_FourTeam"			"Quatro Equipes"
+"Gametype_FourTeam"			        "Quatro Equipes"
 
 "Gametype_Arena_FourTeam"			"Arena (Quatro Equipes)"
 "Gametype_AttackDefense_FourTeam"	"Ataque/Defesa (Quatro Equipes)"
@@ -985,6 +990,8 @@ A equipe BLU pode congelar o progresso da captura de um Ponto de Controle se o V
 
 "Cant_cap_civilian_only"		"Apenas o VIP pode\n capturar este ponto."
 "Cant_cap_civilian_only_frozen"	"Captura pausada\n Apenas o VIP pode\n capturar este ponto."
+
+"TF_CantChangeClassAsVIP"		"Você não pode mudar de classe enquanto for o VIP."
 
 // VIP (Lives)
 "vipl_setup_goal_offense"	"Escolte o VIP para a zona de fuga e impeça-o de ser eliminado."
@@ -1059,6 +1066,10 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Arena_Welcome"				"Modo Arena"
 "TF_Arena_Team_SizeIncreased"	"O tamanho da equipe %s1 aumentou para %s2."
 "TF_Arena_Team_SizeDecreased"	"O tamanho da equipe %s1 diminuiu para %s2."
+
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"Você não pode mudar de classe enquanto o equipamento estiver aleatorizado."
+"Hint_randomizer_check_loadout"				"Pressione '%s1' para ver o equipamento aleatorizado."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1160,9 +1171,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
-"TF_Menu_Name"				"%playername%!"
+"TF_Menu_Name"				"%playername%"
 
-"TF_Menu_HideName"			"[CENSURADO]"
+"TF_Menu_StreamerMode"		"Modo de streamer"
 
 "TF_Menu_ResumeGame"		"Retomar jogo"
 "TF_Menu_Mute"				"Silenciar jogadores"
@@ -1188,19 +1199,29 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Menu_ReportBug"			"Relatar um bug"
 "TF_Menu_Donate"			"Apoiar"
 
-"TF_Friends_Title"					"Amigos (%friend_count%)"
-"TF_Friends_Status_InTF2C"			"Jogando TF2C"
-"TF_Friends_Status_Idle_InTF2C"		"Ausente no TF2C"
-"TF_Friends_Status_InMod"			"Jogando outra mod"
-"TF_Friends_Status_Idle_InMod"		"Ausente em outra mod"
-"TF_Friends_Status_InGame"			"Jogando outro jogo"
-"TF_Friends_Status_Idle"			"Ausente em outro jogo"
-"TF_Friends_Status_Online"			"Online"
-"TF_Friends_Status_Away"			"Ausente"
-"TF_Friends_Status_Offline"			"Offline"
+"TF_Menu_ShowFriends"		"Exibir amigos"
+"TF_Menu_HideFriends"		"Ocultar amigos"
 
-"ChallengeDetails"					"%s1 como %s2"
+"TF_Friends_Title"					            "Amigos (%friend_count%)"
+"TF_Friends_Status_InTF2C"			            "Jogando TF2C"
+"TF_Friends_Status_Idle_InTF2C"		            "Ausente no TF2C"
+"TF_Friends_Status_InMod"			            "Jogando outra mod"
+"TF_Friends_Status_Idle_InMod"		            "Ausente em outra mod"
+"TF_Friends_Status_InGame"			            "Jogando outro jogo"
+"TF_Friends_Status_Idle"			            "Ausente em outro jogo"
+"TF_Friends_Status_Online"			            "Online"
+"TF_Friends_Status_Away"			            "Ausente"
+"TF_Friends_Status_Offline"			            "Offline"
+"TF_Friends_InviteServer"			            "Convidar para o servidor"
 
+"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
+"TF_RichPresence_State_JoiningServer"			"Entrando em servidor"
+
+"ChallengeDetails"					            "%s1 como %s2"
+
+
+"TF_NextChallenge"								"Próximo desafio"
 
 // ----------------------------------------------------------------
 // Loadout
@@ -1332,6 +1353,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "GameUI_Off"               				"Desligado"
 "GameUI_Everyone"               		"Todos"
 "GameUI_FriendsOnly"               		"Apenas amigos"
+"GameUI_Alpha"                          "Alfa"
 
 "GameUI_Restart"						"É necessário reiniciar"
 "GameUI_RestartText"					"Algumas alterações que você fez exigem que o jogo seja reiniciado:"
@@ -1350,6 +1372,13 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Sons de feedback de dano recebido são reproduzidos ao sofrer dano"
 "TF2C_Option_DamageFeedbackIncomingVolume"	"Volume de feedback de danos recebido"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"O volume dos sons contextuais reproduzidos ao receber dano"
+"TF2C_Option_LowHealthSound"				"Tocar um som quando estiver com pouca vida"
+"TF2C_Tooltip_LowHealthSound"				"Ative para tocar um \"som de aviso\" sempre que a sua vida estiver abaixo de uma certa porcentagem."
+"TF2C_Option_LowHealthSoundThreshold"		"Porcentagem-limite para aviso de vida baixa"
+"TF2C_Tooltip_LowHealthSoundThreshold"		"O limite de vida no qual, ao ficar abaixo dele, o \"som de aviso\" será reproduzido"
+"TF2C_Option_CalloutBubbles"				"Exibir balões de fala para comandos de voz"
+"TF2C_Tooltip_CalloutBubbles"			    "Ative para exibir balões de fala adicionais acima dos jogadores que usarem comandos de voz"
+
 
 "TF_CenterFirePreference"         	"Prefira projéteis disparados do centro"
 "TF_CenterFirePreference_Tip"    	"Se ativada, a coordenada Y da posição de surgimento dos projéteis é definida como 0 para o jogador; requer que o jogador esteja desconectado ou assistindo à partida para que a alteração seja aplicada"
@@ -1360,14 +1389,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_CombatTextDropShadow"           "Exibir texto de combate com sombra projetada"
 "TF_CombatTextDropShadow_Tip"       "Se ativada, exibe uma sombra projetada no texto de combate."
 
-"TF2C_CalloutBubbles"				"Ativar balões de fala para comandos de voz"
-"TF2C_CalloutBubbles_Tip"			"Exibe balões de fala adicionais acima dos jogadores que usarem comandos de voz"
-
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: clique-duplo para detonar as granadas do Ciclope"
 "TF_CyclopsDoubleTap_Tip"        	"As granadas do Ciclope exigirão um segundo clique para detonar, em vez de detonarem ao atirar."
-"TF_SapperAwareness"                "ENGINEER: alerta sobre sabotadores"
-"TF_SapperAwareness_Tip"            "Exibe uma cor alternativa para o alerta de Sabotadores nas construções."
 "TF_SniperBell"					    "SNIPER: Reproduzir som com a carga completa"
 "TF_SniperBell_Tip"					"Reproduz um som quando o Rifle de Precisão estiver totalmente carregado."
 "TF_ZoomSensitivityRatio"			"SNIPER: Proporção da Sensibilidade do Zoom"
@@ -1448,10 +1472,16 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Network_Rate_Tip"       		"Define a taxa de atualização da rede, que inversamente define a quantidade de interpolação.\n\nRecomenda-se testar cada uma e ver qual funciona melhor na sua conexão de rede."
 
 // Video
-"TF2c_Option_BloomScale"			"Escala de bloom"
-"TF2c_Option_FramerateLimit"		"Limite de taxa de quadros"
 "TF2c_Option_ClassicShading"		"Usar sombreadores clássicos"
 "TF2c_Option_ClassicShading_Tip"	"Utiliza sombreadores com base em superfícies luminosas ortotrópicas (superfícies de Lambert) para materiais de jogadores"
+"TF2c_Option_BloomScale"			"Escala de bloom"
+"TF2c_Option_FramerateLimit"		"Limite de taxa de quadros"
+"TF2c_Option_Brightness"			"Nível de brilho"
+"TF2c_Option_Brightness_Tip"		"[APENAS TELA CHEIA] Ajuste o nível de gama do monitor"
+
+// TF30
+"TF_EnableClassicVision"			"Ativar Visão-Clássica"
+"TF_EnableClassicVision_Tip"		"Ative para usufruir do conteúdo do aniversário de 30 anos de Team Fortress.\nAs mudanças serão aplicadas somente ao desconectar ou quando o servidor trocar de mapa."
 
 // ----------------------------------------------------------------
 // Stats
@@ -1560,6 +1590,33 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Morra para o VIP inimigo. Você foi marcado."
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Críticas Destrutivas"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Domine um jogador que tenha uma medalha de colaborador."
+// TF30 Achievements
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_NAME"		"Facada Livre"
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_DESC"		"Esfaqueie um inimigo pelas costas pouco depois de usar um saltador inimigo."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_NAME"				"Fan Service"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_DESC"				"Faça com que outros jogadores usem os seus saltadores 1.000 vezes."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_NAME"		"Impulso Inicial"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_DESC"		"Ajude aliados a matar 20 inimigos pouco depois de eles usarem os seus saltadores."
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_NAME"				"Incentivo do Chefe"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_DESC"				"Como um Civilian, ajude seus aliados a resistirem a 2.000 de dano inimigo enquanto você estiver protegido atrás de uma cobertura."
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"O Melhor Chefe do Mundo"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"Ajude um aliado fortalecido pelo seu guarda-chuva a matar três inimigos."
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"Defenda o Tampinha"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"Mate 20 inimigos que tenham ferido recentemente o VIP de sua equipe enquanto ele ainda estiver vivo."
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"Je Suis James"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"Mate três inimigos com o revólver sem morrer."
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"Lembrança Ardente"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"Como Pyro, cause um total de 1.000 de dano incendiário enquanto estiver morto(a)."
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"Teleturismo"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"Teletransporte outros jogadores por mais de 10 quilômetros."
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"Hoje Não, Dona Morte"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"Salve 5 aliados de morrerem queimados matando Pyros inimigos que estejam usando a Ceifadora."
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"Chekhov, o quê?"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"Como um Heavy, mate 10 inimigos com críticos usando a espingarda."
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"Estoure sua Bolha"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"Como um Medic, mate 5 inimigos enquanto estiver sob os efeitos da ÜberCarga da Rejuvenescedora."
+"TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"Mete Marcha"
+"TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"Como um Civilian, ajude aliados a matar 50 inimigos usando o bônus de velocidade da sua Bengala de Cabo Curvo."
 
 // ----------------------------------------------------------------
 // Discord Rich Presence
@@ -1605,5 +1662,12 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "ServerBrowser_OfficialOrVerified" "Oficial ou verificado"
 "ServerBrowser_CustomRules"	"Regras personalizadas"
 "ServerBrowser_CustomWeapons" "Armas personalizadas"
+
+// ----------------------------------------------------------------
+// MOTD titles
+// ----------------------------------------------------------------
+
+"TF_Welcome_birthday"			"Bem-vindo(a) e feliz aniversário, TF2!"
+"TF_Welcome_qwtf_birthday"		"Bem-vindo(a) e feliz aniversário, QWTF!"
 }
 }

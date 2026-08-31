@@ -1,13 +1,12 @@
-# Team Fortress 2 Classified Translations
-This repository is for translating TF2 Classified's in-game and Steam platform texts. If you would like to see your changes implemented in-game, please [fork this repository](https://github.com/tf2classified/tf2classified-translations/fork) and then [open a pull request](https://github.com/tf2classified/tf2classified-translations/compare) with your work.
+# Team Fortress 2 Classified - Translations
+This repository is used for translating Team Fortress 2 Classified's various texts, both in-game and on the Steam platform.
 
-If your contribution gets accepted, please [send us your SteamID64](https://tf2classified.com/contact) and we will grant you an in-game Contributor medal.
+## Contributing
+To contribute a new translation, you may [**fork this repository**](../../fork) and [**create a pull request**](../../compare). Make sure to include your Steam ID in the pull request description so we may grant you a medal in-game.
 
-## For Translators
-- Please make sure that your **file encoding matches that of the English files (always UTF-8 BOM)** found in this repository.
-- Some lines use control characters to manage special properties. Please make sure you are retaining these.
+Please make sure that your translation files are encoded as <ins>**UTF-8 BOM**</ins>.
 
-## For Moderators
-- You are in charge of your languages. You can find translation changes in need of review by using the "[Status - Needs Review](https://github.com/tf2classified/tf2classified-translations/pulls?q=is%3Apr+is%3Aopen+label%3A%22Status+-+Needs+Review%22)" label.
-- Please do not merge new languages that do not yet have game translations (e.g. merging store page translations before game translations).
-- If you would like to become a moderator for your language, please [contact us](https://tf2classified.com/contact).
+## Moderation
+Merging translation pull requests is managed by community moderators.
+
+If you would like to become a moderator for your language, please [**create an issue**](../../issues/new) or [email us](https://tf2classified.com/contact), and provide examples of your past translation work.

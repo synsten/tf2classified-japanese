@@ -1,4 +1,4 @@
-﻿﻿"lang"
+﻿"lang"
 {
 "Language" "French"
 "Tokens"
@@ -423,14 +423,14 @@
 // Arena
 "Tip_arena_Count"		"9"
 "Tip_arena_1"			"En mode Arena, gardez un œil sur le nombre des joueurs en haut de l'écran. Cela vous permettra de savoir quand votre équipe a l'avantage !"
-"Tip_arena_2"			"En mode Arena, étant donné qu'il y a très peu de trousses de soins, les Medics et les Engineers sont extrêmement précieux. Protégez-les à tout prix (et partagez votre sandvich) !"
+"Tip_arena_2"			"En mode Arena, étant donné qu'il y a très peu de kits de soins, les Medics et les Engineers sont extrêmement précieux. Protégez-les à tout prix (et partagez votre sandvich) !"
 "Tip_arena_3"			"En mode Arena, le point de contrôle au centre de la carte deviendra actif 60 secondes après le début du match. Utilisez-le pour faire sortir les ennemis cachés !"
 "Tip_arena_4"			"En mode Arena, il n'y a pas de réapparition, alors évitez de mourir !"
 "Tip_arena_5"			"En mode Arena, diversifiez votre portfolio ! Essayez de complémenter la composition de votre équipe, ou contrez celle des ennemis."
-"Tip_arena_6"			"En mode Arena, vous pouvez changer de classe seulement au début d'un round, avant l'ouverture des portes."
+"Tip_arena_6"			"En mode Arena, vous pouvez changer de classe seulement au début d'une manche, avant l'ouverture des portes."
 "Tip_arena_7"			"En mode Arena, essayez de rester ensemble avec votre équipe et aidez-vous en cas de danger. Arriver en retard à un combat peut être désavantageux."
 "Tip_arena_8"			"En mode Arena, il est crucial d'empếcher l'équipe ennemie de se soigner. Ciblez les Medics et les distributeurs ennemis, et empếchez l'accès aux kits de soins si possible !"
-"Tip_arena_9"			"En mode Arena, avoir la première victime du round accorde un bonus de coup critique. Si vous le récupérez, utilisez-le au maximum ! Si un ennemi le récupère, restez discret et essayez d'attendre que ça passe."
+"Tip_arena_9"			"En mode Arena, le bonus Premier Sang d'une manche accorde des coups critiques. Si vous le récupérez, utilisez-le au maximum ! Si un ennemi l'obtient, restez discret et essayez d'attendre que ça passe."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -450,7 +450,7 @@
 "TF_Weapon_Kukri_Desc"	"Découpé par un tireur d'élite. Quelle ironie."
 // Knife
 "TF_Weapon_Knife"		"Couteau"
-"TF_Weapon_Knife_Desc"	"Pour celui qui aime voir les choses se dénouer."
+"TF_Weapon_Knife_Desc"	"Pour l'homme qui ne papillonne jamais."
 // Fists
 "TF_Weapon_Fists"		"Poings"
 "TF_Weapon_Fists_Desc"	"J'en ai pas encore fini avec toi !"
@@ -1027,6 +1027,9 @@ Les plus vertueux relèveront le défi à l'épée !"
 // Gamemode strings
 // ----------------------------------------------------------------
 
+// CTF
+"TF_CTF_TeamCannotCapture"	"Votre équipe ne peut pas s'emparer de ce drapeau !"
+
 // Domination
 "default_dom_description"	"Objectif :
 Pour gagner, chaque équipe doit capturer et tenir les points de contrôle pour récupérer des points. Plus vous tenez de points de contrôle, plus vite vous obtenez les points.
@@ -1345,7 +1348,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF2c_KeyboardCategory_UI"  		 	"INTERFACE"
 "TF2c_KeyboardCategory_Extra"			"EXTRA"
 "TF2c_UseDefaultsButton"				"Réinitialiser"
-"TF_ClassSkill_Spy_Spywalk"				"SPY : Marcher normalement en étant déguisé"
+"TF_ClassSkill_Spy_Spywalk"				"SPY : Cavalcade"
 "TF_Voice_Menu_0_0"						"Commande vocale : MEDIC!"
 "TF_Voice_Menu_0_1"						"Commande vocale : Merci !"
 "TF_Voice_Menu_1_0"						"Commande vocale : Ils s'amènent !"
@@ -1469,7 +1472,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_SniperBell_Tip"					"Jouer un son lorsque le Fusil du Sniper est entièrement chargé"
 "TF_ZoomSensitivityRatio"			"SNIPER : taux de sensibilité de la visée"
 "TF_ZoomSensitivityRatio_Tip"		"Ajuste la sensibilité en mode visée"
-"TF_SpywalkInverted"				"SPY : marcher à vitesse normale en étant déguisé par défaut"
+"TF_SpywalkInverted"				"SPY : Cavalcade par défaut"
 "TF_SpywalkInverted_Tip"			"Si l'option est activée, vous marcherez à votre vitesse normale même en étant déguisé en une classe plus lente. La touche de marche rapide permettra de marcher à la vitesse de la classe lente à la place"
 "TF_ViewModelCloakTint"				"SPY : teinte du modèle de vue invisible"
 "TF_ViewModelCloakTint_Tip"			"Permet au modèles de vue d'être teintés lorsque vous êtes invisible"
@@ -1693,7 +1696,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Prolongez une ÜberCharge du Vivificateur jusqu'à 12 secondes."
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"Il est mort !"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"Donnez une crise cardiaque à un Heavy ennemi équipé du coup de poing de Tchekhov !"
-"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Trous d'air"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Baron rouge"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Tuez un ennemi avec un tir en pleine tête pendant qu'il est dans les airs."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Barbouze démasqué !"
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Exposez un Spy invisible utilisant l'Escampette en lui infligant des dégâts."
